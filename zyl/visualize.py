@@ -4,10 +4,10 @@ from vega_datasets import data
 import numpy as np
 import pprint
 
-df=pd.read_csv('seasonal-temperature_state.csv')
-snowfall=pd.read_csv('snowfall.csv')
-snow_rain=pd.read_csv('snowfall_preciption.csv')
-temperature=pd.read_csv('seasonal-temperature_US.csv')
+df=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/seasonal-temperature_state.csv')
+snowfall=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snowfall.csv')
+snow_rain=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snowfall_preciption.csv')
+temperature=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/seasonal-temperature_US.csv')
 state_map = data.us_10m.url
 
 snowfall['Trend']=snowfall['Trend'].round(2)
@@ -169,7 +169,7 @@ A=(map_chart + snowfall_chart).resolve_scale(color='independent').configure_view
 #     fill='#C2E7FF'
 )
     
-chart_snowfall = A.properties(width=800, height=500)
+chart_snowfall = A.properties(width=1000, height=800, title='Winter Temperature Change in 48 States and Snowfall Change in 419 Weather Stations')
 
 def plot_snowfall():
     return chart_snowfall
@@ -188,7 +188,7 @@ snowfall_pre_chart = alt.Chart(snow_rain).mark_circle().encode(
     increase='datum.Percent_change > 0 ? "increase" : "decrease"'
 ).add_selection(selection1)
 B=(map_chart+snowfall_pre_chart)
-chart_snowfall_precipitaiton=B.properties(width=800, height=500)
+chart_snowfall_precipitaiton=B.properties(width=1000, height=800, title="Winter Temperature Change in 48 States and Snowfall Change in 177 Weather Stations")
 
 def plot_snowfall_precipitation():
     return chart_snowfall_precipitaiton
@@ -196,148 +196,160 @@ def plot_snowfall_precipitation():
 
 from sklearn.linear_model import LinearRegression
 
-us_temp=pd.read_csv("US_temperature.csv")
-us_temp['temperature']=us_temp['temperature'].round(2)
-def month_to_season(month):
-    if 3 <= month <= 5:
-        return 'Spring'
-    elif 6 <= month <= 8:
-        return 'Summer'
-    elif 9 <= month <= 11:
-        return 'Autumn'
-    else:
-        return 'Winter'
+def get_season(us_temp):
+    us_temp['temperature']=us_temp['temperature'].round(2)
+    def month_to_season(month):
+        if 3 <= month <= 5:
+            return 'Spring'
+        elif 6 <= month <= 8:
+            return 'Summer'
+        elif 9 <= month <= 11:
+            return 'Autumn'
+        else:
+            return 'Winter'
+        
+    season_colors = {
+        'Winter': '#1f77b4',
+        'Spring': '#2ca02c',
+        'Summer': '#ff7f0e',
+        'Autumn': '#d62728'
+    }
 
-us_temp['season']=us_temp['month'].apply(month_to_season)
+    us_temp['season']=us_temp['month'].apply(month_to_season)
 
-seasonal_data = us_temp.groupby(['year', 'season']).agg({'temperature': 'mean'}).reset_index()
 
-# Define a function to fit a linear regression model and return the slope and intercept
-def fit_linear_regression(x, y):
-    model = LinearRegression()
-    model.fit(x, y)
-    slope = model.coef_[0]
-    intercept = model.intercept_
-    return slope, intercept
+    seasonal_data = us_temp.groupby(['year', 'season']).agg({'temperature': 'mean'}).reset_index()
 
-# Calculate the slope and intercept for each season
-seasons = ['Winter', 'Spring', 'Summer', 'Autumn']
-regression_params = {}
+    # Define a function to fit a linear regression model and return the slope and intercept
+    def fit_linear_regression(x, y):
+        model = LinearRegression()
+        model.fit(x, y)
+        slope = model.coef_[0]
+        intercept = model.intercept_
+        return slope, intercept
 
-for season in seasons:
-    season_data = seasonal_data[seasonal_data['season'] == season]
-    x = season_data[['year']]
-    y = season_data['temperature']
-    slope, intercept = fit_linear_regression(x, y)
-    regression_params[season] = (slope, intercept)
-    
-    
-# Define a function to format the regression formula as a string
-def format_regression_formula(slope, intercept):
-    return f"y = {slope:.3f}x + {intercept:.2f}"
+    # Calculate the slope and intercept for each season
+    seasons = ['Winter', 'Spring', 'Summer', 'Autumn']
+    regression_params = {}
 
-# Create text annotations for each season
-text_annotations = []
+    for season in seasons:
+        season_data = seasonal_data[seasonal_data['season'] == season]
+        x = season_data[['year']]
+        y = season_data['temperature']
+        slope, intercept = fit_linear_regression(x, y)
+        regression_params[season] = (slope, intercept)
+        
+        
+    # Define a function to format the regression formula as a string
+    def format_regression_formula(slope, intercept):
+        return f"y = {slope:.3f}x + {intercept:.2f}"
 
-for i, season in enumerate(seasons):
-    slope, intercept = regression_params[season]
-    formula = format_regression_formula(slope, intercept)
-    annotation = alt.Chart({'values': [{'x': 1905, 'y': 80 - i * 5, 'text': f"{season}: {formula}"}]}).mark_text(
+    # Create text annotations for each season
+    text_annotations = []
+
+    for i, season in enumerate(seasons):
+        slope, intercept = regression_params[season]
+        formula = format_regression_formula(slope, intercept)
+        annotation = alt.Chart({'values': [{'x': 1905, 'y': 80 - i * 5, 'text': f"{season}: {formula}"}]}).mark_text(
+            fontSize=12,
+            align='left',
+            baseline='middle',
+            dx=5
+        ).encode(
+            x='x:Q',
+            y='y:Q',
+            text='text:N'
+        )
+        text_annotations.append(annotation)
+        
+    def apply_regression(year, season):
+        slope, intercept = regression_params[season]
+        return year * slope + intercept
+
+    seasonal_data['Regression'] = seasonal_data.apply(lambda row: apply_regression(row['year'], row['season']), axis=1)
+    annotation_data = []
+
+    for season in seasons:
+        slope, intercept = regression_params[season]
+        formula = format_regression_formula(slope, intercept)
+        x_position = 2023  # Adjust this value to control the position of the annotation along the x-axis
+        y_position = apply_regression(x_position, season)
+        annotation_data.append({'season': season, 'year': x_position, 'temperature': y_position, 'text': formula})
+
+    annotation_df = pd.DataFrame(annotation_data)
+
+    text_marks = alt.Chart(annotation_df).mark_text(
         fontSize=12,
         align='left',
         baseline='middle',
         dx=5
     ).encode(
-        x='x:Q',
-        y='y:Q',
-        text='text:N'
+        x=alt.X('year:Q', title='Year'),
+        y=alt.Y('temperature:Q', title='Temperature (\N{DEGREE SIGN}F)'),
+        text='text:N',
+        color=alt.Color('season:N', title='Season')
     )
-    text_annotations.append(annotation)
-    
-def apply_regression(year, season):
-    slope, intercept = regression_params[season]
-    return year * slope + intercept
 
-seasonal_data['Regression'] = seasonal_data.apply(lambda row: apply_regression(row['year'], row['season']), axis=1)
-annotation_data = []
+    base = alt.Chart(seasonal_data).mark_line().encode(
+        x=alt.X('year:Q', title='Year',scale=alt.Scale(domain=[1890, 2050])),
+        y=alt.Y('temperature:Q', scale=alt.Scale(domain=[25, 80])),
+        color=alt.Color('season:N', scale=alt.Scale(domain=list(season_colors.keys()), range=list(season_colors.values()))),
+        tooltip=[alt.Tooltip('year:Q'), alt.Tooltip('season:N'), alt.Tooltip('temperature:Q')]
+    ).properties(
+        width=800,
+        height=400,
+        title='Seasonal Temperature from 1895 to 2023'
+    )
 
-for season in seasons:
-    slope, intercept = regression_params[season]
-    formula = format_regression_formula(slope, intercept)
-    x_position = 2023  # Adjust this value to control the position of the annotation along the x-axis
-    y_position = apply_regression(x_position, season)
-    annotation_data.append({'season': season, 'year': x_position, 'temperature': y_position, 'text': formula})
-
-annotation_df = pd.DataFrame(annotation_data)
-
-text_marks = alt.Chart(annotation_df).mark_text(
-    fontSize=12,
-    align='left',
-    baseline='middle',
-    dx=5
-).encode(
-    x=alt.X('year:Q', title='Year'),
-    y=alt.Y('temperature:Q', title='Temperature (\N{DEGREE SIGN}F)'),
-    text='text:N',
-    color=alt.Color('season:N', title='Season')
-)
-
-base = alt.Chart(seasonal_data).mark_line().encode(
-    x=alt.X('year:Q', title='Year',scale=alt.Scale(domain=[1890, 2050])),
-    y=alt.Y('temperature:Q', scale=alt.Scale(domain=[25, 75])),
-    color=alt.Color('season:N', title='Season'),
-    tooltip=[alt.Tooltip('year:Q'), alt.Tooltip('season:N'), alt.Tooltip('temperature:Q')]
-).properties(
-    width=800,
-    height=400,
-    title='Seasonal Temperature from 1895 to 2023'
-)
-
-# Create the regression line chart
-regression = base.transform_regression(
-    on='year',  # Independent variable
-    regression='temperature',  # Dependent variable
-    groupby=['season']  # Group by season
-).mark_line(strokeDash=[4, 4])  # Dashed line style for the regression line
+    # Create the regression line chart
+    regression = base.transform_regression(
+        on='year',  # Independent variable
+        regression='temperature',  # Dependent variable
+        groupby=['season']  # Group by season
+    ).mark_line(strokeDash=[4, 4])  # Dashed line style for the regression line
 
 
-nearest = alt.selection(type='single', nearest=True, on='mouseover', fields=['year'], empty='none')
-points = base.mark_circle().encode(
-    opacity=alt.condition(nearest, alt.value(1), alt.value(0))
-).add_selection(
-    nearest
-)
+    nearest = alt.selection(type='single', nearest=True, on='mouseover', fields=['year'], empty='none')
+    points = base.mark_circle().encode(
+        opacity=alt.condition(nearest, alt.value(1), alt.value(0))
+    ).add_selection(
+        nearest
+    )
 
-rules = alt.Chart(seasonal_data).mark_rule(color='gray').encode(
-    x='year:Q'
-).transform_filter(
-    nearest
-)
+    rules = alt.Chart(seasonal_data).mark_rule(color='gray').encode(
+        x='year:Q'
+    ).transform_filter(
+        nearest
+    )
 
-text = base.mark_text(align='left', dx=5, dy=-5).encode(
-    text=alt.condition(nearest, alt.Text('temperature:Q', format='.2f'), alt.value(' '))
-).transform_filter(
-    nearest
-)
+    text = base.mark_text(align='left', dx=5, dy=-5).encode(
+        text=alt.condition(nearest, alt.Text('temperature:Q', format='.2f'), alt.value(' '))
+    ).transform_filter(
+        nearest
+    )
 
-# year_text = base.mark_text(align='left', dx=5, dy=10).encode(
-#     text=alt.condition(nearest, 'year:Q', alt.value(' '))
-# ).transform_filter(
-#     nearest
-# )
+    # year_text = base.mark_text(align='left', dx=5, dy=10).encode(
+    #     text=alt.condition(nearest, 'year:Q', alt.value(' '))
+    # ).transform_filter(
+    #     nearest
+    # )
 
 
-# combined_chart.display()
-final_chart = alt.layer(base, regression, points, rules, text, text_marks).properties(
-    width=800,
-    height=400,
-    title='Seasonal Temperature from 1895 to 2023 with Linear Regression in US'
-)
+    # combined_chart.display()
+    final_chart = alt.layer(base, regression, points, rules, text, text_marks).properties(
+        width=800,
+        height=400,
+        title='Seasonal Temperature from 1895 to 2023 with Linear Regression in US'
+    )
 
-def plot_seasonal_temperature():
     return final_chart
 
-duration=pd.read_csv('snow_duration.csv')
+def plot_seasonal_temperature():
+    df=pd.read_csv("https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/US_temperature.csv")
+    # return get_season(df)
+    return get_season(df).interactive()
+
+duration=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snow_duration.csv')
 
 base2=alt.Chart(duration).mark_line().encode(
     x='Year:Q',
@@ -351,9 +363,13 @@ regression2 = base2.transform_regression(
 
 
 def plot_snow_duration():
-    return (base2+regression2)
+    return (base2+regression2).interactive().properties(
+        width=800,
+        height=400,
+        title='Snow Season Length from 1972-2013 in US'
+    )
 
-coverage=pd.read_csv('snow_cover.csv')
+coverage=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snow_cover.csv')
 
 coverage['coverage']=coverage['coverage']/1000000.0
 
@@ -409,5 +425,9 @@ text_annotation = alt.Chart(pd.DataFrame({
 
 # base3+regression3
 def plot_snow_cover():
-    return base4+base3+regression3+text_annotation
+    return (base4+base3+regression3+text_annotation).interactive().properties(
+        width=800,
+        height=400,
+        title='Snow Cover in Different Months in North America'
+    )
 
