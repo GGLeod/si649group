@@ -36,6 +36,7 @@ def chart_snow_duration():
 def chart_snowfall():
     st.title("Snowfall Temprorily Maintains Thanks to High Precipitation")
     st.altair_chart(vis_zyl.plot_snowfall())
+    st.write()
     st.altair_chart(vis_zyl.plot_snowfall_precipitation())
 
 visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall]
