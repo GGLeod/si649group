@@ -13,6 +13,8 @@ def chart_seasonal_temperature():
       0.024 \N{DEGREE SIGN}F per year. As skiing is most in winter, it will be affected more seriously than we think.
       In addtion, from the graph, temperature increases faster than before in recent decades. 
       Interact with above visualizations to find temperature in each year.""")
+    st.markdown('[Data Source: National Centers for Environmental Information](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series)')
+
 
 def chart_snow_cover():
     st.title("Snow Cover is Slowly Decreasing")
@@ -21,6 +23,8 @@ def chart_snow_cover():
         Snow cover varies a lot in different month over a year. We find that snow cover drops quickly across years in summer (June, July and August).
         In winter (Deecember, January, February), snow cover does not vary a lot across years. Explore the data by choosing the month you are interested.
     """)
+    st.markdown('[Data Source: Rutgers university global snow lab](http://climate.rutgers.edu/snowcover/)')
+
 
 def chart_snow_duration():
     st.title("Snow Season Length Decreases two weeks from 1972")
@@ -31,13 +35,24 @@ def chart_snow_duration():
             season length drops quickly. Starting from 1972, it has decreased approximately two weeks, which will affect ski industry a lot.
         """
     )
+    st.markdown('[Data Source: United States Environmental Protection Agency](https://www.epa.gov/)')
     
 
 def chart_snowfall():
     st.title("Snowfall Temprorily Maintains Thanks to High Precipitation")
     st.altair_chart(vis_zyl.plot_snowfall())
-    st.write()
+    st.write("""This visualization shows that the state with higher latitude is darker which means those states experience more
+              temperature increased in those areas in winter. However, most ski resorts are in high latitude states for more snowfall
+              so this a bad news. In terms of snowfall, red dots dominates west which means states in the west experience obvious snowfall dropping while in other areas, 
+              snow fall decreasing is not so obvious and in some place, snowfall even increases. However, this is actually misleading. 
+              The snowfall increases because as temperature becomes higher, there is more evporation and leads to more precipitation. 
+              Therefore, snowfall-to-precipitation ratio is a better metric.
+              """)
     st.altair_chart(vis_zyl.plot_snowfall_precipitation())
+    st.write("""From snowfall-to-precipitation visualization, it is clear that this ratio drops dramastically in most areas of US. Noted
+    that here the size scale is different from the first figure. You can hover over above two visualizations to get the exact percentage change.""")
+
+    st.markdown('[Data Source: United States Environmental Protection Agency](https://www.epa.gov/)')
 
 visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall]
 viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography"]

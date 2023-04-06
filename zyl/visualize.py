@@ -188,7 +188,7 @@ snowfall_pre_chart = alt.Chart(snow_rain).mark_circle().encode(
     increase='datum.Percent_change > 0 ? "increase" : "decrease"'
 ).add_selection(selection1)
 B=(map_chart+snowfall_pre_chart)
-chart_snowfall_precipitaiton=B.properties(width=1000, height=800, title="Winter Temperature Change in 48 States and Snowfall Change in 177 Weather Stations")
+chart_snowfall_precipitaiton=B.properties(width=1000, height=800, title="Winter Temperature Change in 48 States and Snowfall-to-Precipitation Change in 177 Weather Stations")
 
 def plot_snowfall_precipitation():
     return chart_snowfall_precipitaiton
@@ -428,6 +428,6 @@ def plot_snow_cover():
     return (base4+base3+regression3+text_annotation).interactive().properties(
         width=800,
         height=400,
-        title='Snow Cover in Different Months in North America'
+        title='Snow Cover in Different Months in North America from 1970 to 2022'
     )
 
