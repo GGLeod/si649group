@@ -6,7 +6,7 @@ import zyl.visualize as vis_zyl
 
 
 def chart_seasonal_temperature():
-    st.title("Temperautre has Increased a Lot in Winter")
+    st.title("Temperature has Increased a Lot in Winter")
     st.altair_chart(vis_zyl.plot_seasonal_temperature())
     st.write("""Global warming is a well known issue right now. This visualization shows though 
     average temperature has increased for all seasons, winter increased much faster than other seasons, which reaches
