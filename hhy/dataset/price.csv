@@ -1,0 +1,1943 @@
+	state	name	Year	price	season pass	payback
+0	Maine	Sunday River	1994	43		
+1	Maine	Sugarloaf	1994	43		
+2	Maine	Mt. Jefferson	1994	15		
+3	Maine	Mt. Jefferson	1995	15		
+4	Maine	Sugarloaf USA	1996	46		
+5	Maine	Shawnee Peak	1996	35		
+6	Maine	Mt. Abram	1996	29		
+7	Maine	Camden Snow Bowl	1996	24		
+8	Maine	Sunday River	1997	47		
+9	Maine	Sugarloaf USA	1997	47		
+10	Maine	Shawnee Peak	1997	38		
+11	Maine	Lost Valley	1997	30	450	5
+12	Maine	Sunday River	1998	49		
+13	Maine	Saddleback	1998	42		
+14	Maine	Lost Valley	1998	30	450	5
+15	Maine	Camden Snow Bowl	1998	28	360	2
+16	Maine	Titcomb	1998	14		
+17	Maine	Sunday River	1999	49		
+18	Maine	Saddleback	1999	45		
+19	Maine	Shawnee Peak	1999	39	599	5
+20	Maine	Mt. Abram	1999	32		
+21	Maine	Lost Valley	1999	30		
+22	Maine	Camden Snow Bowl	1999	29	360	2
+23	Maine	Squaw Mountain	1999	20		
+24	Maine	Eaton Mountain	1999	18		
+25	Maine	Hermon	1999	18		
+26	Maine	Sugarloaf USA	2000	51	1295	5
+27	Maine	Sunday River	2000	51		
+28	Maine	Saddleback	2000	47	725	5
+29	Maine	Shawnee Peak	2000	39	675	7
+30	Maine	Mt. Abram	2000	33	400	2
+31	Maine	Lost Valley	2000	30		
+32	Maine	Camden Snow Bowl	2000	28	360	2
+33	Maine	Eaton Mountain	2000	19	300	5
+34	Maine	Titcomb Mountain	2000	16		
+35	Maine	Sunday River	2001	52	1245	3
+36	Maine	Sugarloaf USA	2001	52	1245	3
+37	Maine	Saddleback	2001	49	775	5
+38	Maine	Shawnee Peak	2001	41	699	7
+39	Maine	Mt. Abram	2001	35		
+40	Maine	Lost Valley	2001	30	440	4
+41	Maine	Camden Snow Bowl	2001	28	360	2
+42	Maine	Eaton Mountain	2001	20	310	5
+43	Maine	Titcomb Mountain	2001	16		
+44	Maine	Sunday River	2002	53	1249	3
+45	Maine	Sugarloaf USA	2002	53	1249	3
+46	Maine	Saddleback	2002	49	975	9
+47	Maine	Shawnee Peak	2002	42	699	6
+48	Maine	Mt. Abram	2002	35	575	6
+49	Maine	Lost Valley	2002	31	440	4
+50	Maine	Camden Snow Bowl	2002	28	360	2
+51	Maine	Big Squaw	2002	25		
+52	Maine	Eaton Mountain	2002	22	310	4
+53	Maine	Titcomb Mountain	2002	17		
+54	Maine	Mt. Jefferson	2002	15	160	0
+55	Maine	Sunday River	2003	56	1249	2
+56	Maine	Sugarloaf USA	2003	56	1249	2
+57	Maine	Shawnee Peak	2003	42	709	6
+58	Maine	Mt. Abram	2003	37	575	5
+59	Maine	Saddleback	2003	35	700	0
+60	Maine	Lost Valley	2003	31	440	4
+61	Maine	Camden Snow Bowl	2003	28	390	3
+62	Maine	Eaton Mountain	2003	22	310	4
+63	Maine	Big Rock	2003	20	325	6
+64	Maine	Titcomb Mountain	2003	19		
+65	Maine	Big Squaw	2003	19		
+66	Maine	Black Mountain	2003	17	295	7
+67	Maine	Mt. Jefferson	2003	15	160	0
+68	Maine	Sunday River	2004	59	1100	8
+69	Maine	Sugarloaf USA	2004	58	1100	9
+70	Maine	Shawnee Peak	2004	44	699	5
+71	Maine	Mt. Abram	2004	41	575	4
+72	Maine	Saddleback	2004	35	595	7
+73	Maine	Lost Valley	2004	31	440	4
+74	Maine	Eaton Mountain	2004	22	310	4
+75	Maine	Big Rock	2004	20	325	6
+76	Maine	Hermon Mountain	2004	20		
+77	Maine	Titcomb Mountain	2004	19		
+78	Maine	Big Squaw	2004	19		
+79	Maine	Black Mountain	2004	18	249	3
+80	Maine	Mt. Jefferson	2004	15	160	0
+81	Maine	Sugarloaf USA	2005	61	1300	1
+82	Maine	Sunday River	2005	59	1300	2
+83	Maine	Shawnee Peak	2005	45	679	5
+84	Maine	Mt. Abram	2005	42	595	4
+85	Maine	Saddleback	2005	39	500	2
+86	Maine	Lost Valley	2005	33	376	1
+87	Maine	Camden Snow Bowl	2005	30	425	4
+88	Maine	Big Rock	2005	25	325	3
+89	Maine	Eaton Mountain	2005	23	310	3
+90	Maine	Titcomb Mountain	2005	22		
+91	Maine	Black Mountain	2005	20		
+92	Maine	Big Squaw	2005	19		
+93	Maine	Mt. Jefferson	2005	15	160	0
+94	Maine	Sunday River	2006	67	1400	0
+95	Maine	Sugarloaf USA	2006	67	1350	0
+96	Maine	Shawnee Peak	2006	47	699	4
+97	Maine	Mt. Abram	2006	42	595	4
+98	Maine	Saddleback	2006	40	450	1
+99	Maine	Lost Valley	2006	35	399	1
+100	Maine	Camden Snow Bowl	2006	30	425	4
+101	Maine	Big Rock	2006	25	325	3
+102	Maine	Eaton Mountain	2006	23	310	3
+103	Maine	Titcomb Mountain	2006	22		
+104	Maine	Black Mountain	2006	20	269	3
+105	Maine	Hermon Mountain	2006	20	255	2
+106	Maine	Big Squaw	2006	20		
+107	Maine	Sunday River	2007	72	999	3
+108	Maine	Sugarloaf USA	2007	72	999	3
+109	Maine	Shawnee Peak	2007	49	699	4
+110	Maine	Mt. Abram	2007	43	695	6
+111	Maine	Saddleback	2007	40	450	1
+112	Maine	Lost Valley	2007	35	399	1
+113	Maine	Camden Snow Bowl	2007	30	425	4
+114	Maine	Big Rock	2007	28	250	
+115	Maine	Black Mountain	2007	25	269	0
+116	Maine	Big Squaw	2007	25		
+117	Maine	Titcomb Mountain	2007	24		
+118	Maine	Hermon Mountain	2007	20	255	2
+119	Maine	Spruce Mountain	2007	16		
+120	Maine	Sunday River	2008	77	1049	3
+121	Maine	Sugarloaf	2008	75	1049	4
+122	Maine	Shawnee Peak	2008	52	779	5
+123	Maine	Mt. Abram	2008	49	649	3
+124	Maine	Lost Valley	2008	45	455	0
+125	Maine	Saddleback	2008	40	450	1
+126	Maine	Camden Snow Bowl	2008	33	446	3
+127	Maine	Big Rock	2008	30	275	
+128	Maine	Black Mountain	2008	30	249	
+129	Maine	Hermon Mountain	2008	25	275	1
+130	Maine	Big Squaw	2008	25		
+131	Maine	Titcomb Mountain	2008	24		
+132	Maine	Spruce Mountain	2008	17		
+133	Maine	Powderhouse Hill	2008	5		
+134	Maine	Sunday River	2009	77	1049	3
+135	Maine	Sugarloaf	2009	75	1049	4
+136	Maine	Shawnee Peak	2009	53	709	3
+137	Maine	Saddleback	2009	49	649	3
+138	Maine	Mt. Abram	2009	49		
+139	Maine	Camden Snow Bowl	2009	33	446	3
+140	Maine	Big Rock	2009	30	275	
+141	Maine	Black Mountain	2009	29	249	
+142	Maine	Big Squaw	2009	25		
+143	Maine	Lonesome Pine Trails	2009	20		
+144	Maine	Spruce Mountain	2009	17		
+145	Maine	Mt. Jefferson	2009	17	170	0
+146	Maine	Powderhouse Hill	2009	5		
+147	Maine	Hermon Mountain	2009		275	
+148	Maine	Sunday River	2010	79	1079	3
+149	Maine	Sugarloaf	2010	77	1079	4
+150	Maine	Shawnee Peak	2010	56	709	2
+151	Maine	Saddleback	2010	50	649	3
+152	Maine	Mt. Abram	2010	49	719	4
+153	Maine	Camden Snow Bowl	2010	33	446	3
+154	Maine	Big Rock	2010	30	275	
+155	Maine	Lonesome Pine Trails	2010	20		
+156	Maine	Spruce Mountain	2010	17		
+157	Maine	Powderhouse Hill	2010	5		
+158	Maine	Sunday River	2011	80	1149	4
+159	Maine	Sugarloaf	2011	79	1149	4
+160	Maine	Saddleback	2011	59	699	1
+161	Maine	Shawnee Peak	2011	59	709	2
+162	Maine	Mt. Abram	2011	49	699	4
+163	Maine	Lost Valley	2011	45	455	0
+164	Maine	Camden Snow Bowl	2011	35	468	3
+165	Maine	Black Mountain	2011	34	269	
+166	Maine	Big Rock	2011	30	300	0
+167	Maine	Titcomb Mountain	2011	25		
+168	Maine	Hermon Mountain	2011	25	275	1
+169	Maine	Lonesome Pine Trails	2011	20		
+170	Maine	Mt. Jefferson	2011	20	185	
+171	Maine	Powderhouse Hill	2011	5		
+172	Maine	Sunday River	2012	85	1175	3
+173	Maine	Sugarloaf	2012	81	1175	4
+174	Maine	Saddleback	2012	59	799	3
+175	Maine	Shawnee Peak	2012	59	699	1
+176	Maine	Mt. Abram	2012	49	730	4
+177	Maine	Lost Valley	2012	45	455	0
+178	Maine	Camden Snow Bowl	2012	35	468	3
+179	Maine	Hermon Mountain	2012	25	275	1
+180	Maine	Spruce Mountain	2012	25		
+181	Maine	Big Squaw	2012	25		
+182	Maine	Lonesome Pine Trails	2012	20		
+183	Maine	Titcomb Mountain	2012	20		
+184	Maine	Mt. Jefferson	2012	20	185	
+185	Maine	Big Rock	2012	15	150	0
+186	Maine	Black Mountain	2012	15	150	0
+187	Maine	Powderhouse Hill	2012	5		
+188	Maine	Sunday River	2013	87	1210	3
+189	Maine	Sugarloaf	2013	83	1210	4
+190	Maine	Shawnee Peak	2013	62	699	1
+191	Maine	Saddleback	2013	59	799	3
+192	Maine	Mt. Abram	2013	49	730	4
+193	Maine	Lost Valley	2013	45	455	0
+194	Maine	Big Rock	2013	35	350	0
+195	Maine	Camden Snow Bowl	2013	35	468	3
+196	Maine	Hermon Mountain	2013	27	275	0
+197	Maine	Spruce Mountain	2013	25		
+198	Maine	Big Squaw	2013	25	250	0
+199	Maine	Lonesome Pine Trails	2013	20		
+200	Maine	Titcomb Mountain	2013	20		
+201	Maine	Mt. Jefferson	2013	20	185	
+202	Maine	Black Mountain	2013	15	150	0
+203	Maine	Quoggy Jo	2013	8	125	5
+204	Maine	Powderhouse Hill	2013	5		
+205	Maine	Sunday River	2014	89	1245	4
+206	Maine	Sugarloaf	2014	84	1245	4
+207	Maine	Saddleback	2014	69		
+208	Maine	Shawnee Peak	2014	63	705	1
+209	Maine	Mt. Abram	2014	49	540	1
+210	Maine	Lost Valley	2014	40	399	0
+211	Maine	Camden Snow Bowl	2014	39	499	2
+212	Maine	Big Rock	2014	38	385	0
+213	Maine	Hermon Mountain	2014	27	275	0
+214	Maine	Black Mountain	2014	25	250	0
+215	Maine	Spruce Mountain	2014	25		
+216	Maine	Big Squaw	2014	25	250	0
+217	Maine	Lonesome Pine Trails	2014	20		
+218	Maine	Titcomb Mountain	2014	20		
+219	Maine	Mt. Jefferson	2014	20	185	
+220	Maine	Eaton Mountain	2014	15	150	0
+221	Maine	Quoggy Jo	2014	8	125	5
+222	Maine	Powderhouse Hill	2014	5		
+223	Maine	Sunday River	2015	89	1245	4
+224	Maine	Sugarloaf	2015	86	1245	4
+225	Maine	Shawnee Peak	2015	65	710	0
+226	Maine	Mt. Abram	2015	55	540	
+227	Maine	Lost Valley	2015	45	499	1
+228	Maine	Camden Snow Bowl	2015	39	529	3
+229	Maine	Big Rock	2015	38	385	0
+230	Maine	Black Mountain	2015	29	295	0
+231	Maine	Hermon Mountain	2015	27	275	0
+232	Maine	Spruce Mountain	2015	25	500	0
+233	Maine	Big Squaw	2015	25	250	0
+234	Maine	Titcomb Mountain	2015	22	225	0
+235	Maine	Lonesome Pine	2015	20	195	
+236	Maine	Mt. Jefferson	2015	20	185	
+237	Maine	Eaton Mountain	2015	15	125	
+238	Maine	Quoggy Jo	2015	8	125	5
+239	Maine	Powderhouse Hill	2015	5		
+240	Maine	Sunday River	2016	99	1309	3
+241	Maine	Sugarloaf	2016	95	1309	3
+242	Maine	Shawnee Peak	2016	69	715	0
+243	Maine	Mt. Abram	2016	59	619	0
+244	Maine	Lost Valley	2016	45	499	1
+245	Maine	Camden Snow Bowl	2016	43	529	2
+246	Maine	Big Rock	2016	38	385	0
+247	Maine	Black Mountain	2016	37	295	
+248	Maine	Big Squaw	2016	30	250	
+249	Maine	Hermon Mountain	2016	27	275	0
+250	Maine	Titcomb Mountain	2016	22	225	0
+251	Maine	Mt. Jefferson	2016	20	185	
+252	Maine	Lonesome Pine	2016	20	195	
+253	Maine	Eaton Mountain	2016	15		
+254	Maine	Quoggy Jo	2016	8	125	5
+255	Maine	Powderhouse Hill	2016	5		
+256	Maine	Sunday River	2017	105	1349	2
+257	Maine	Sugarloaf	2017	95	1349	4
+258	Maine	Shawnee Peak	2017	72	725	0
+259	Maine	Mt. Abram	2017	59	609	0
+260	Maine	Lost Valley	2017	49	499	0
+261	Maine	Camden Snow Bowl	2017	43	529	2
+262	Maine	Big Rock	2017	38	385	0
+263	Maine	Black Mountain	2017	37	370	0
+264	Maine	Hermon Mountain	2017	32	350	0
+265	Maine	Big Squaw	2017	30	250	
+266	Maine	Pinnacle	2017	30		
+267	Maine	Titcomb Mountain	2017	24	235	
+268	Maine	Lonesome Pine	2017	20	195	
+269	Maine	Mt. Jefferson	2017	20	185	
+270	Maine	Baker Mountain	2017	12	100	
+271	Maine	Eaton Mountain	2017	12	100	
+272	Maine	Powderhouse Hill	2017	5		
+273	Maine	Sunday River	2018	105	1389	3
+274	Maine	Sugarloaf	2018	99	1389	4
+275	Maine	Shawnee Peak	2018	75	760	0
+276	Maine	Lost Valley	2018	55	549	0
+277	Maine	Mt. Abram	2018	49	629	2
+278	Maine	Black Mountain	2018	45	450	0
+279	Maine	Camden Snow Bowl	2018	43	529	2
+280	Maine	Big Rock	2018	40	395	
+281	Maine	Hermon Mountain	2018	32	350	0
+282	Maine	Big Squaw	2018	30	250	
+283	Maine	Lonesome Pine	2018	25	205	
+284	Maine	Mt. Jefferson	2018	25		
+285	Maine	Titcomb Mountain	2018	24	235	
+286	Maine	Eaton Mountain	2018	15		
+287	Maine	Baker Mountain	2018	12	100	
+288	Maine	Powderhouse Hill	2018	5		
+289	Maine	Sunday River	2019	109	1419	3
+290	Maine	Sugarloaf	2019	105	1419	3
+291	Maine	Shawnee Peak	2019	82	770	
+292	Maine	Lost Valley	2019	60	575	
+293	Maine	Mt. Abram	2019	49	609	2
+294	Maine	Black Mountain	2019	45	450	0
+295	Maine	Camden Snow Bowl	2019	43	529	2
+296	Maine	Big Rock	2019	40	420	0
+297	Maine	Hermon Mountain	2019	35	385	1
+298	Maine	Big Squaw	2019	30	250	
+299	Maine	Lonesome Pine	2019	25	205	
+300	Maine	Titcomb Mountain	2019	24	242	0
+301	Maine	Baker Mountain	2019	15	125	
+302	Maine	Quoggy Jo	2019	10	125	2
+303	Maine	Powderhouse Hill	2019	5		
+304	Maine	Pinnacle	2019		30	
+305	Maine	Spruce Mountain	2019		225	
+306	Maine	Sugarloaf	2020	124		
+307	Maine	Sunday River	2020	119		
+308	Maine	Shawnee Peak	2020	86	795	
+309	Maine	Saddleback	2020	84	699	
+310	Maine	Lost Valley	2020	60	595	
+311	Maine	Mt. Abram	2020	49	599	2
+312	Maine	Black Mountain	2020	45	450	0
+313	Maine	Camden Snow Bowl	2020	43	529	2
+314	Maine	Big Rock	2020	40	420	0
+315	Maine	Big Squaw	2020	30		
+316	Maine	Titcomb Mountain	2020	27	242	
+317	Maine	Lonesome Pine	2020	25	205	
+318	Maine	Spruce Mountain	2020		300	
+319	Maine	Sunday River	2021	139	1599	1
+320	Maine	Sugarloaf	2021	130	1599	2
+321	Maine	Saddleback	2021	104	849	
+322	Maine	Shawnee Peak	2021	88	825	
+323	Maine	Lost Valley	2021	60	595	
+324	Maine	Black Mountain	2021	55	450	
+325	Maine	Hermon Mountain	2021	55	520	
+326	Maine	Mt. Abram	2021	55	569	0
+327	Maine	Big Rock	2021	45	435	
+328	Maine	Camden Snow Bowl	2021	45	545	2
+329	Maine	Big Squaw	2021	30		
+330	Maine	Mt. Jefferson	2021	30	300	0
+331	Maine	Spruce Mountain	2021	25	225	
+332	Maine	Baker Mountain	2021	15	125	
+333	Maine	Quarry Road Trails	2021	10	50	
+334	Maine	Powderhouse Hill	2021	5		
+335	Maine	Quoggy Jo	2021		150	
+336	Maine	Sunday River	2022	149	1609	0
+337	Maine	Sugarloaf	2022	129	1609	2
+338	Maine	Saddleback	2022	119	849	
+339	Maine	Pleasant Mountain	2022	89	924	0
+340	Maine	Lost Valley	2022	66	645	
+341	Maine	Big Rock	2022	55	495	
+342	Maine	Black Mountain	2022	55	495	
+343	Maine	Hermon Mountain	2022	55	530	
+344	Maine	Camden Snow Bowl	2022	47	545	1
+345	Maine	Big Squaw	2022	40		
+346	Maine	Mt. Jefferson	2022	40	399	0
+347	Maine	Mt. Abram	2022	35	589	6
+348	Maine	Spruce Mountain	2022	30		
+349	Maine	Lonesome Pine	2022	25	215	
+350	Maine	Baker Mountain	2022	15	140	
+351	Maine	Quarry Road Trails	2022	10	50	
+352	Maine	Powderhouse Hill	2022	5		
+353	Connecticut	Mohawk Mountain	1994	32		
+354	Connecticut	Mohawk Mountain	1995	25		
+355	Connecticut	Woodbury	1995	20		
+356	Connecticut	Powder Ridge	1998	30		
+357	Connecticut	Mount Southington	1998	28		
+358	Connecticut	Ski Sundown	1999	32		
+359	Connecticut	Powder Ridge	1999	30	400	3
+360	Connecticut	Mohawk Mountain	1999	30	605	0
+361	Connecticut	Mount Southington	1999	29		
+362	Connecticut	Ski Sundown	2000	33	499	5
+363	Connecticut	Mohawk Mountain	2000	32	650	0
+364	Connecticut	Powder Ridge	2000	30	400	3
+365	Connecticut	Mt. Southington	2000	30	389	3
+366	Connecticut	Woodbury	2000	24	399	6
+367	Connecticut	Mohawk Mountain	2001	35		
+368	Connecticut	Ski Sundown	2001	34	499	4
+369	Connecticut	Powder Ridge	2001	32	400	2
+370	Connecticut	Mt. Southington	2001	30	429	4
+371	Connecticut	Woodbury	2001	25	450	8
+372	Connecticut	Mohawk Mountain	2002	37	690	8
+373	Connecticut	Ski Sundown	2002	35	549	5
+374	Connecticut	Powder Ridge	2002	33	450	3
+375	Connecticut	Mt. Southington	2002	30	439	4
+376	Connecticut	Woodbury	2002	25	499	0
+377	Connecticut	Mohawk Mountain	2003	39	690	7
+378	Connecticut	Ski Sundown	2003	37	549	4
+379	Connecticut	Powder Ridge	2003	33	450	3
+380	Connecticut	Mt. Southington	2003	32	449	4
+381	Connecticut	Woodbury	2003	27	599	2
+382	Connecticut	Mohawk Mountain	2004	42	660	5
+383	Connecticut	Ski Sundown	2004	40	549	3
+384	Connecticut	Powder Ridge	2004	35		
+385	Connecticut	Mt. Southington	2004	35	459	3
+386	Connecticut	Woodbury	2004	28	549	9
+387	Connecticut	Ski Sundown	2005	43	549	2
+388	Connecticut	Mohawk Mountain	2005	42	599	4
+389	Connecticut	Powder Ridge	2005	37		
+390	Connecticut	Mt. Southington	2005	37	469	2
+391	Connecticut	Woodbury	2005	29	549	8
+392	Connecticut	Ski Sundown	2006	46	579	2
+393	Connecticut	Mohawk Mountain	2006	45	599	3
+394	Connecticut	Mt. Southington	2006	42	499	1
+395	Connecticut	Woodbury	2006	31	549	7
+396	Connecticut	Ski Sundown	2007	48	579	2
+397	Connecticut	Mohawk Mountain	2007	47	599	2
+398	Connecticut	Mt. Southington	2007	44	524	1
+399	Connecticut	Woodbury	2007	32	549	7
+400	Connecticut	Ski Sundown	2008	50	579	1
+401	Connecticut	Mohawk Mountain	2008	50	599	2
+402	Connecticut	Mt. Southington	2008	48	535	1
+403	Connecticut	Woodbury	2008	35	525	5
+404	Connecticut	Ski Sundown	2009	52	579	1
+405	Connecticut	Mohawk Mountain	2009	50	599	2
+406	Connecticut	Mt. Southington	2009	50	535	0
+407	Connecticut	Woodbury	2009	39	550	4
+408	Connecticut	Mohawk Mountain	2010	52		
+409	Connecticut	Mt. Southington	2010	52	535	0
+410	Connecticut	Woodbury	2010	39		
+411	Connecticut	Ski Sundown	2010		589	
+412	Connecticut	Ski Sundown	2011	55	589	0
+413	Connecticut	Mohawk Mountain	2011	54	619	1
+414	Connecticut	Mt. Southington	2011	53	540	0
+415	Connecticut	Woodbury	2011	39	550	4
+416	Connecticut	Mohawk Mountain	2012	56	619	1
+417	Connecticut	Ski Sundown	2012	55	589	0
+418	Connecticut	Mt. Southington	2012	54	540	0
+419	Connecticut	Woodbury	2012	42		
+420	Connecticut	Mohawk Mountain	2013	58	619	0
+421	Connecticut	Ski Sundown	2013	56	589	0
+422	Connecticut	Mt. Southington	2013	55	550	0
+423	Connecticut	Powder Ridge	2013	55	550	0
+424	Connecticut	Woodbury	2013	42	425	0
+425	Connecticut	Mohawk Mountain	2014	60	639	0
+426	Connecticut	Ski Sundown	2014	58	599	0
+427	Connecticut	Mt. Southington	2014	56	550	
+428	Connecticut	Powder Ridge	2014	55	550	0
+429	Connecticut	Woodbury	2014	39	425	0
+430	Connecticut	Mohawk Mountain	2015	60	639	0
+431	Connecticut	Ski Sundown	2015	60	625	0
+432	Connecticut	Mt. Southington	2015	58	560	
+433	Connecticut	Powder Ridge	2015	55	550	0
+434	Connecticut	Woodbury	2015	39	399	0
+435	Connecticut	Mohawk	2016	62	639	0
+436	Connecticut	Ski Sundown	2016	60	625	0
+437	Connecticut	Mt. Southington	2016	58	560	
+438	Connecticut	Powder Ridge	2016	55	550	0
+439	Connecticut	Mohawk Mountain	2017	64	639	0
+440	Connecticut	Ski Sundown	2017	62	650	0
+441	Connecticut	Mt. Southington	2017	59	580	
+442	Connecticut	Powder Ridge	2017	55	550	0
+443	Connecticut	Mohawk Mountain	2018	65	639	
+444	Connecticut	Ski Sundown	2018	62	715	1
+445	Connecticut	Mt. Southington	2018	60	660	1
+446	Connecticut	Powder Ridge	2018	55	605	1
+447	Connecticut	Mohawk Mountain	2019	67	659	
+448	Connecticut	Mt. Southington	2019	62		
+449	Connecticut	Ski Sundown	2019	62	715	1
+450	Connecticut	Powder Ridge	2019	49	539	1
+451	Connecticut	Mohawk Mountain	2020	67	659	
+452	Connecticut	Ski Sundown	2020	62	715	1
+453	Connecticut	Mt. Southington	2020	62	650	0
+454	Connecticut	Powder Ridge	2020	55		
+455	Connecticut	Mohawk Mountain	2021	75	684	
+456	Connecticut	Mt. Southington	2021	64	675	0
+457	Connecticut	Ski Sundown	2021	64	675	0
+458	Connecticut	Powder Ridge	2021	57	627	1
+459	Connecticut	Mohawk Mountain	2022	80	704	
+460	Connecticut	Mt. Southington	2022	68	725	0
+461	Connecticut	Ski Sundown	2022	68	725	0
+462	Connecticut	Powder Ridge	2022	59	649	1
+463	Massachusetts	Brodie	1994	37		
+464	Massachusetts	Jiminy Peak	1994	37		
+465	Massachusetts	Wachusett	1994	34		
+466	Massachusetts	Berkshire East	1994	32		
+467	Massachusetts	Mt. Tom	1994	29		
+468	Massachusetts	Nashoba Valley	1994	25		
+469	Massachusetts	Bradford	1994	23		
+470	Massachusetts	Blue Hills	1994	20		
+471	Massachusetts	Ski Ward	1994	17		
+472	Massachusetts	Bousquet	1994	15		
+473	Massachusetts	Jiminy Peak	1995	38		
+474	Massachusetts	Brodie	1995	38		
+475	Massachusetts	Wachusett	1995	34		
+476	Massachusetts	Berkshire East	1995	32		
+477	Massachusetts	Mt. Tom	1995	29	409	4
+478	Massachusetts	Otis Ridge	1995	22		
+479	Massachusetts	Bousquet	1995	20	295	4
+480	Massachusetts	Blandford	1995	19		
+481	Massachusetts	Jiminy Peak	1996	38		
+482	Massachusetts	Brodie Mountain	1996	38		
+483	Massachusetts	Butternut	1996	38		
+484	Massachusetts	Wachusett Mountain	1996	35		
+485	Massachusetts	Berkshire East	1996	32		
+486	Massachusetts	Mt. Tom	1996	29		
+487	Massachusetts	Nashoba Valley	1996	27		
+488	Massachusetts	Otis Ridge	1996	20		
+489	Massachusetts	Blandford	1996	20		
+490	Massachusetts	Bousquet	1996	20		
+491	Massachusetts	Jericho Hill	1996	14		
+492	Massachusetts	Brodie	1997	39		
+493	Massachusetts	Catamount	1997	39	530	3
+494	Massachusetts	Jiminy Peak	1997	39		
+495	Massachusetts	Berkshire East	1997	35		
+496	Massachusetts	Wachusett Mountain	1997	35		
+497	Massachusetts	Mt. Tom	1997	29	410	4
+498	Massachusetts	Bousquet	1997	20		
+499	Massachusetts	Jiminy Peak	1998	42		
+500	Massachusetts	Brodie	1998	39		
+501	Massachusetts	Catamount	1998	39		
+502	Massachusetts	Wachusett Mountain	1998	37		
+503	Massachusetts	Berkshire East	1998	35	399	1
+504	Massachusetts	Ski Blandford	1998	24	199	
+505	Massachusetts	Otis Ridge	1998	20		
+506	Massachusetts	Bousquet	1998	20		
+507	Massachusetts	Ski Butternut	1998		495	
+508	Massachusetts	Jiminy Peak	1999	44		
+509	Massachusetts	Catamount	1999	40		
+510	Massachusetts	Brodie	1999	40		
+511	Massachusetts	Wachusett	1999	39		
+512	Massachusetts	Ski Butternut	1999	39		
+513	Massachusetts	Berkshire East	1999	35	399	1
+514	Massachusetts	Nashoba Valley	1999	29		
+515	Massachusetts	Ski Ward	1999	25		
+516	Massachusetts	Bousquet	1999	25	325	3
+517	Massachusetts	Bradford	1999	25		
+518	Massachusetts	Blandford	1999	24		
+519	Massachusetts	Blue Hills	1999	23		
+520	Massachusetts	Otis Ridge	1999	20		
+521	Massachusetts	Jiminy Peak	2000	46		
+522	Massachusetts	Wachusett Mountain	2000	42	619	4
+523	Massachusetts	Catamount	2000	41		
+524	Massachusetts	Brodie Mountain	2000	40		
+525	Massachusetts	Ski Butternut	2000	39	495	2
+526	Massachusetts	Berkshire East	2000	35	379	0
+527	Massachusetts	Nashoba Valley	2000	30	500	6
+528	Massachusetts	Ski Bradford	2000	28	500	7
+529	Massachusetts	Blue Hills	2000	28	385	3
+530	Massachusetts	Ski Blandford	2000	26		
+531	Massachusetts	Ski Ward	2000	26		
+532	Massachusetts	Bousquet	2000	25		
+533	Massachusetts	Otis Ridge	2000	22	200	
+534	Massachusetts	Jiminy Peak	2001	48		
+535	Massachusetts	Wachusett Mountain	2001	43	619	4
+536	Massachusetts	Catamount	2001	43		
+537	Massachusetts	Ski Butternut	2001	41		
+538	Massachusetts	Berkshire East	2001	38	399	0
+539	Massachusetts	Nashoba Valley	2001	30	500	6
+540	Massachusetts	Brodie Mountain	2001	29		
+541	Massachusetts	Ski Blandford	2001	28		
+542	Massachusetts	Ski Ward	2001	26		
+543	Massachusetts	Bousquet	2001	25		
+544	Massachusetts	Otis Ridge	2001	24	200	
+545	Massachusetts	Jiminy Peak	2002	49	699	4
+546	Massachusetts	Catamount	2002	44		
+547	Massachusetts	Wachusett Mountain	2002	44	619	4
+548	Massachusetts	Ski Butternut	2002	43	299	
+549	Massachusetts	Berkshire East	2002	38	399	0
+550	Massachusetts	Nashoba Valley	2002	32	500	5
+551	Massachusetts	Ski Bradford	2002	30	500	6
+552	Massachusetts	Ski Blandford	2002	28	299	0
+553	Massachusetts	Blue Hills	2002	28		
+554	Massachusetts	Ski Ward	2002	28		
+555	Massachusetts	Otis Ridge	2002	25	200	
+556	Massachusetts	Bousquet	2002	25		
+557	Massachusetts	Jiminy Peak	2003	52	699	3
+558	Massachusetts	Ski Butternut	2003	45	299	
+559	Massachusetts	Wachusett Mountain	2003	45	639	4
+560	Massachusetts	Catamount	2003	45	349	
+561	Massachusetts	Berkshire East	2003	40	429	0
+562	Massachusetts	Ski Blandford	2003	33	324	
+563	Massachusetts	Blue Hills	2003	33	400	2
+564	Massachusetts	Nashoba Valley	2003	33	500	5
+565	Massachusetts	Ski Bradford	2003	30	500	6
+566	Massachusetts	Ski Ward	2003	29		
+567	Massachusetts	Bousquet	2003	25	325	3
+568	Massachusetts	Otis Ridge	2003	25	200	
+569	Massachusetts	Jiminy Peak	2004	52	759	4
+570	Massachusetts	Ski Butternut	2004	46	299	
+571	Massachusetts	Wachusett Mountain	2004	46	619	3
+572	Massachusetts	Catamount	2004	46	349	
+573	Massachusetts	Berkshire East	2004	42	429	0
+574	Massachusetts	Ski Blandford	2004	35	324	
+575	Massachusetts	Nashoba Valley	2004	35	500	4
+576	Massachusetts	Blue Hills	2004	33	400	2
+577	Massachusetts	Bousquet	2004	30	325	0
+578	Massachusetts	Ski Bradford	2004	30	550	8
+579	Massachusetts	Otis Ridge	2004	29	200	
+580	Massachusetts	Pine Ridge	2004	20	200	0
+581	Massachusetts	Jiminy Peak	2005	55	759	3
+582	Massachusetts	Wachusett Mountain	2005	48	629	3
+583	Massachusetts	Catamount	2005	48	349	
+584	Massachusetts	Ski Butternut	2005	46	199	
+585	Massachusetts	Berkshire East	2005	45	429	
+586	Massachusetts	Ski Blandford	2005	37	338	
+587	Massachusetts	Nashoba Valley	2005	37		
+588	Massachusetts	Blue Hills	2005	36		
+589	Massachusetts	Ski Bradford	2005	33	600	8
+590	Massachusetts	Bousquet	2005	32	325	0
+591	Massachusetts	Ski Ward	2005	31	450	4
+592	Massachusetts	Otis Ridge	2005	30	200	
+593	Massachusetts	Pine Ridge	2005	24	240	0
+594	Massachusetts	Jiminy Peak	2006	57	799	4
+595	Massachusetts	Catamount	2006	50	349	
+596	Massachusetts	Ski Butternut	2006	49	279	
+597	Massachusetts	Wachusett Mountain	2006	49	629	2
+598	Massachusetts	Berkshire East	2006	48	429	
+599	Massachusetts	Nashoba Valley	2006	40	550	3
+600	Massachusetts	Blue Hills	2006	38		
+601	Massachusetts	Ski Bradford	2006	38	630	6
+602	Massachusetts	Ski Blandford	2006	37	338	
+603	Massachusetts	Bousquet	2006	32	325	0
+604	Massachusetts	Otis Ridge	2006	30	200	
+605	Massachusetts	Jiminy Peak	2007	59	799	3
+606	Massachusetts	Catamount	2007	52	379	
+607	Massachusetts	Berkshire East	2007	50	449	
+608	Massachusetts	Ski Butternut	2007	50	279	
+609	Massachusetts	Wachusett Mountain	2007	49	629	2
+610	Massachusetts	Nashoba Valley	2007	40	550	3
+611	Massachusetts	Ski Blandford	2007	39	398	0
+612	Massachusetts	Ski Bradford	2007	38	630	6
+613	Massachusetts	Bousquet	2007	37	325	
+614	Massachusetts	Blue Hills	2007	33	230	
+615	Massachusetts	Otis Ridge	2007	30	200	
+616	Massachusetts	Ski Ward	2007		450	
+617	Massachusetts	Jiminy Peak	2008	56	849	5
+618	Massachusetts	Catamount	2008	56	399	
+619	Massachusetts	Ski Butternut	2008	55	279	
+620	Massachusetts	Berkshire East	2008	52	459	
+621	Massachusetts	Wachusett Mountain	2008	49	599	2
+622	Massachusetts	Nashoba Valley	2008	44	575	3
+623	Massachusetts	Ski Bradford	2008	42	670	6
+624	Massachusetts	Ski Blandford	2008	41	398	
+625	Massachusetts	Ski Ward	2008	40	475	1
+626	Massachusetts	Bousquet	2008	40	325	
+627	Massachusetts	Blue Hills	2008	36	349	
+628	Massachusetts	Otis Ridge	2008	30	220	
+629	Massachusetts	Catamount	2009	58		
+630	Massachusetts	Berkshire East	2009	55	479	
+631	Massachusetts	Ski Butternut	2009	55	279	
+632	Massachusetts	Wachusett Mountain	2009	49		
+633	Massachusetts	Ski Blandford	2009	45	448	0
+634	Massachusetts	Nashoba Valley	2009	45		
+635	Massachusetts	Ski Bradford	2009	42	670	6
+636	Massachusetts	Ski Ward	2009	40	475	1
+637	Massachusetts	Blue Hills	2009	36	359	0
+638	Massachusetts	Otis Ridge	2009	30	220	
+639	Massachusetts	Jiminy Peak	2010	59	875	4
+640	Massachusetts	Catamount	2010	59	419	
+641	Massachusetts	Berkshire East	2010	58	499	
+642	Massachusetts	Ski Butternut	2010	55	330	
+643	Massachusetts	Wachusett Mountain	2010	51	625	2
+644	Massachusetts	Nashoba Valley	2010	46		
+645	Massachusetts	Ski Blandford	2010	45	448	0
+646	Massachusetts	Ski Bradford	2010	43		
+647	Massachusetts	Ski Ward	2010	40	475	1
+648	Massachusetts	Bousquet	2010	37	325	
+649	Massachusetts	Blue Hills	2010	36	385	0
+650	Massachusetts	Otis Ridge	2010	30	220	
+651	Massachusetts	Jiminy Peak	2011	61	875	4
+652	Massachusetts	Catamount	2011	61	429	
+653	Massachusetts	Berkshire East	2011	58	519	
+654	Massachusetts	Wachusett Mountain	2011	58	649	1
+655	Massachusetts	Ski Butternut	2011	55	330	
+656	Massachusetts	Nashoba Valley	2011	48	625	3
+657	Massachusetts	Ski Blandford	2011	47	458	
+658	Massachusetts	Ski Bradford	2011	45	670	4
+659	Massachusetts	Bousquet Mountain	2011	42	350	
+660	Massachusetts	Ski Ward	2011	42	475	1
+661	Massachusetts	Blue Hills	2011	38	385	0
+662	Massachusetts	Otis Ridge	2011	30	200	
+663	Massachusetts	Catamount	2012	61	429	
+664	Massachusetts	Jiminy Peak	2012	61	875	4
+665	Massachusetts	Wachusett Mountain	2012	58	649	1
+666	Massachusetts	Berkshire East	2012	58	519	
+667	Massachusetts	Ski Butternut	2012	55	330	
+668	Massachusetts	Nashoba Valley	2012	48		
+669	Massachusetts	Ski Blandford	2012	47		
+670	Massachusetts	Ski Bradford	2012	45	670	4
+671	Massachusetts	Ski Ward	2012	42	475	1
+672	Massachusetts	Bousquet Mountain	2012	42	350	
+673	Massachusetts	Blue Hills	2012	35	400	1
+674	Massachusetts	Otis Ridge	2012	30	200	
+675	Massachusetts	Jiminy Peak	2013	67	910	3
+676	Massachusetts	Catamount	2013	62	429	
+677	Massachusetts	Berkshire East	2013	60	519	
+678	Massachusetts	Wachusett Mountain	2013	60	649	0
+679	Massachusetts	Ski Butternut	2013	55	440	
+680	Massachusetts	Nashoba Valley	2013	50	650	3
+681	Massachusetts	Ski Bradford	2013	48	695	4
+682	Massachusetts	Blandford	2013	47	349	
+683	Massachusetts	Bousquet Mountain	2013	45	375	
+684	Massachusetts	Ski Ward	2013	42	485	1
+685	Massachusetts	Blue Hills	2013	39	449	1
+686	Massachusetts	Otis Ridge	2013	35	220	
+687	Massachusetts	Jiminy Peak	2014	69	935	3
+688	Massachusetts	Wachusett	2014	63	649	0
+689	Massachusetts	Catamount	2014	63	465	
+690	Massachusetts	Berkshire East	2014	60	539	
+691	Massachusetts	Ski Butternut	2014	55	440	
+692	Massachusetts	Nashoba Valley	2014	52	675	3
+693	Massachusetts	Ski Bradford	2014	48	665	3
+694	Massachusetts	Ski Ward	2014	45	495	1
+695	Massachusetts	Bousquet Mountain	2014	45	389	
+696	Massachusetts	Blandford	2014	44	349	
+697	Massachusetts	Blue Hills	2014	40	449	1
+698	Massachusetts	Otis Ridge	2014	35	220	
+699	Massachusetts	Mt. Greylock Ski Club	2014		85	
+700	Massachusetts	Jiminy Peak	2015	71	965	3
+701	Massachusetts	Catamount	2015	65	495	
+702	Massachusetts	Wachusett	2015	65	669	0
+703	Massachusetts	Berkshire East	2015	62	569	
+704	Massachusetts	Ski Butternut	2015	60	455	
+705	Massachusetts	Nashoba Valley	2015	54	675	2
+706	Massachusetts	Ski Bradford	2015	50	665	3
+707	Massachusetts	Ski Ward	2015	46	495	0
+708	Massachusetts	Blue Hills	2015	45	499	1
+709	Massachusetts	Bousquet Mountain	2015	45	399	
+710	Massachusetts	Ski Blandford	2015	44	359	
+711	Massachusetts	Otis Ridge	2015	40	220	
+712	Massachusetts	Mt. Greylock Ski Club	2015		85	
+713	Massachusetts	Jiminy Peak	2016	74	1013	3
+714	Massachusetts	Wachusett	2016	69	669	
+715	Massachusetts	Catamount	2016	66	510	
+716	Massachusetts	Berkshire East	2016	65	659	0
+717	Massachusetts	Ski Butternut	2016	60	455	
+718	Massachusetts	Nashoba Valley	2016	55	675	2
+719	Massachusetts	Ski Bradford	2016	52	665	2
+720	Massachusetts	Ski Ward	2016	49	525	0
+721	Massachusetts	Blue Hills	2016	47	499	0
+722	Massachusetts	Bousquet Mountain	2016	45	399	
+723	Massachusetts	Ski Blandford	2016	44	369	
+724	Massachusetts	Otis Ridge	2016	40	220	
+725	Massachusetts	Mt. Greylock	2016		85	
+726	Massachusetts	Jiminy Peak	2017	76	1013	3
+727	Massachusetts	Wachusett	2017	71	669	
+728	Massachusetts	Catamount	2017	68	550	
+729	Massachusetts	Berkshire East	2017	68	659	
+730	Massachusetts	Ski Butternut	2017	60	490	
+731	Massachusetts	Nashoba Valley	2017	55	675	2
+732	Massachusetts	Ski Ward	2017	52	550	0
+733	Massachusetts	Ski Bradford	2017	52	665	2
+734	Massachusetts	Bousquet Mountain	2017	47	399	
+735	Massachusetts	Blue Hills	2017	45	449	0
+736	Massachusetts	Otis Ridge	2017	40	220	
+737	Massachusetts	Mt. Greylock Ski Club	2017		85	
+738	Massachusetts	Jiminy Peak	2018	81	1050	3
+739	Massachusetts	Catamount	2018	74	550	
+740	Massachusetts	Berkshire East	2018	74	659	
+741	Massachusetts	Wachusett	2018	71	679	
+742	Massachusetts	Ski Butternut	2018	60	399	
+743	Massachusetts	Nashoba Valley	2018	58	650	1
+744	Massachusetts	Ski Bradford	2018	55	665	2
+745	Massachusetts	Ski Ward	2018	55	579	0
+746	Massachusetts	Bousquet Mountain	2018	47	399	
+747	Massachusetts	Blue Hills	2018	45	449	0
+748	Massachusetts	Ski Blandford	2018	45	249	
+749	Massachusetts	Otis Ridge	2018	40	220	
+750	Massachusetts	Mt. Greylock Ski Club	2018		85	
+751	Massachusetts	Jiminy Peak	2019	84	1080	2
+752	Massachusetts	Berkshire East	2019	77	659	
+753	Massachusetts	Catamount	2019	77	659	
+754	Massachusetts	Wachusett	2019	73		
+755	Massachusetts	Ski Butternut	2019	65	399	
+756	Massachusetts	Nashoba Valley	2019	60	650	0
+757	Massachusetts	Ski Bradford	2019	58	665	1
+758	Massachusetts	Ski Ward	2019	55	550	0
+759	Massachusetts	Blue Hills	2019	50	459	
+760	Massachusetts	Bousquet	2019	47	399	
+761	Massachusetts	Ski Blandford	2019	45	289	
+762	Massachusetts	Otis Ridge	2019	40	220	
+763	Massachusetts	Jiminy Peak	2020	99	1119	1
+764	Massachusetts	Catamount	2020	87	659	
+765	Massachusetts	Berkshire East	2020	83	659	
+766	Massachusetts	Bousquet	2020	67	449	
+767	Massachusetts	Ski Butternut	2020	65	399	
+768	Massachusetts	Ski Bradford	2020	58		
+769	Massachusetts	Ski Ward	2020	57	580	0
+770	Massachusetts	Otis Ridge	2020	40	230	
+771	Massachusetts	Blue Hills	2020		499	
+772	Massachusetts	Nashoba Valley	2020		600	
+773	Massachusetts	Mt. Greylock Ski Club	2020		85	
+774	Massachusetts	Berkshire East	2021	104	679	
+775	Massachusetts	Catamount	2021	104	679	
+776	Massachusetts	Jiminy Peak	2021	99	1156	1
+777	Massachusetts	Wachusett	2021	89		
+778	Massachusetts	Nashoba Valley	2021	85	650	
+779	Massachusetts	Ski Butternut	2021	75	439	
+780	Massachusetts	Bousquet	2021	72	469	
+781	Massachusetts	Ski Bradford	2021	65	700	0
+782	Massachusetts	Ski Ward	2021	60	580	
+783	Massachusetts	Blue Hills	2021	58	519	
+784	Massachusetts	Otis Ridge	2021	45	249	
+785	Massachusetts	Mt. Greylock Ski Club	2021		85	
+786	Massachusetts	Jiminy Peak	2022	109	1254	1
+787	Massachusetts	Catamount	2022	104	704	
+788	Massachusetts	Berkshire East	2022	104	704	
+789	Massachusetts	Nashoba Valley	2022	95	700	
+790	Massachusetts	Wachusett	2022	93	799	
+791	Massachusetts	Ski Butternut	2022	85	599	
+792	Massachusetts	Bousquet	2022	75	599	
+793	Massachusetts	Ski Bradford	2022	69		
+794	Massachusetts	Blue Hills	2022	65	519	
+795	Massachusetts	Ski Ward	2022	65	640	
+796	Massachusetts	Otis Ridge	2022	50	289	
+797	New Hampshire	Loon	1994	41		
+798	New Hampshire	Waterville Valley	1994	41		
+799	New Hampshire	Cannon	1994	38		
+800	New Hampshire	Wildcat	1994	36		
+801	New Hampshire	Gunstock	1994	35		
+802	New Hampshire	Cranmore	1994	35		
+803	New Hampshire	Pats Peak	1994	33		
+804	New Hampshire	Temple Mountain	1994	28		
+805	New Hampshire	Highlands	1994	24		
+806	New Hampshire	King Ridge	1994	22		
+807	New Hampshire	Whaleback	1994	20		
+808	New Hampshire	Storrs Hill	1994	5		
+809	New Hampshire	Waterville Valley	1995	43		
+810	New Hampshire	Bretton Woods	1995	38		
+811	New Hampshire	Wildcat	1995	37		
+812	New Hampshire	Temple Mountain	1995	28		
+813	New Hampshire	Storrs Hill	1995	5		
+814	New Hampshire	Loon Mountain	1996	45	1080	4
+815	New Hampshire	Waterville Valley	1996	43	990	3
+816	New Hampshire	Gunstock	1996	39	785	0
+817	New Hampshire	Wildcat Mountain	1996	39		
+818	New Hampshire	Bretton Woods	1996	38		
+819	New Hampshire	Cannon Mountain	1996	37		
+820	New Hampshire	Mt. Sunapee	1996	37		
+821	New Hampshire	Black Mountain	1996	32		
+822	New Hampshire	Ragged Mountain	1996	30		
+823	New Hampshire	Temple Mountain	1996	30	450	5
+824	New Hampshire	Tenney Mountain	1996	29		
+825	New Hampshire	Dartmouth Skiway	1996	28		
+826	New Hampshire	Whaleback	1996	22	319	4
+827	New Hampshire	Attitash Bear Peak	1997	46		
+828	New Hampshire	Loon Mountain	1997	45	1080	4
+829	New Hampshire	Waterville Valley	1997	44	990	2
+830	New Hampshire	Wildcat Mountain	1997	44		
+831	New Hampshire	Cranmore	1997	39		
+832	New Hampshire	Gunstock	1997	39	785	0
+833	New Hampshire	Cannon Mountain	1997	37	695	8
+834	New Hampshire	Sunapee	1997	37		
+835	New Hampshire	Pats Peak	1997	36		
+836	New Hampshire	Black Mountain	1997	32		
+837	New Hampshire	Ragged Mountain	1997	30		
+838	New Hampshire	Tenney Mountain	1997	29	490	6
+839	New Hampshire	Whaleback	1997	25	339	3
+840	New Hampshire	Attitash Bear Peak	1998	48		
+841	New Hampshire	Waterville Valley	1998	46	995	1
+842	New Hampshire	Loon Mountain	1998	46		
+843	New Hampshire	Wildcat Mountain	1998	46		
+844	New Hampshire	Bretton Woods	1998	44		
+845	New Hampshire	Mt. Sunapee	1998	41		
+846	New Hampshire	Cannon Mountain	1998	39	730	8
+847	New Hampshire	Pats Peak	1998	38		
+848	New Hampshire	Tenney Mountain	1998	32		
+849	New Hampshire	Balsams Wilderness	1998	30		
+850	New Hampshire	Cranmore	1998	29		
+851	New Hampshire	Dartmouth Skiway	1998	29		
+852	New Hampshire	King Pine	1998	29		
+853	New Hampshire	Whaleback	1998	27	339	2
+854	New Hampshire	Gunstock	1998		900	
+855	New Hampshire	Bretton Woods	1999	49	920	8
+856	New Hampshire	Wildcat	1999	49		
+857	New Hampshire	Attitash Bear Peak	1999	48		
+858	New Hampshire	Waterville Valley	1999	47		
+859	New Hampshire	Loon Mountain	1999	47		
+860	New Hampshire	Mount Sunapee	1999	44		
+861	New Hampshire	Cannon Mountain	1999	42		
+862	New Hampshire	Gunstock	1999	42	650	5
+863	New Hampshire	Pats Peak	1999	39	495	2
+864	New Hampshire	Ragged Mountain	1999	38		
+865	New Hampshire	Tenney Mountain	1999	34		
+866	New Hampshire	Black Mountain	1999	32		
+867	New Hampshire	Balsams Wilderness	1999	30		
+868	New Hampshire	Dartmouth Skiway	1999	30		
+869	New Hampshire	Cranmore	1999	29		
+870	New Hampshire	King Pine	1999	29		
+871	New Hampshire	Whaleback	1999	29	379	3
+872	New Hampshire	Temple Mountain	1999	27		
+873	New Hampshire	Storrs Hill	1999	5		
+874	New Hampshire	Bretton Woods	2000	51	1050	0
+875	New Hampshire	Attitash Bear Peak	2000	49		
+876	New Hampshire	Waterville Valley	2000	49	449	
+877	New Hampshire	Wildcat Mountain	2000	49		
+878	New Hampshire	Loon Mountain	2000	49		
+879	New Hampshire	Mt. Sunapee	2000	47	865	8
+880	New Hampshire	Gunstock	2000	42	399	
+881	New Hampshire	Cannon Mountain	2000	42	730	7
+882	New Hampshire	Pats Peak	2000	39		
+883	New Hampshire	Tenney Mountain	2000	36	490	3
+884	New Hampshire	Black Mountain	2000	32		
+885	New Hampshire	Dartmouth Skiway	2000	31		
+886	New Hampshire	Whaleback	2000	29	379	3
+887	New Hampshire	Cranmore	2000	29	459	5
+888	New Hampshire	King Pine	2000	29		
+889	New Hampshire	Temple Mountain	2000	27	400	4
+890	New Hampshire	Ragged Mountain	2000		675	
+891	New Hampshire	Bretton Woods	2001	53	1095	0
+892	New Hampshire	Wildcat Mountain	2001	52	1095	1
+893	New Hampshire	Loon Mountain	2001	51	489	
+894	New Hampshire	Mt. Sunapee	2001	49	890	8
+895	New Hampshire	Attitash Bear Peak	2001	49		
+896	New Hampshire	Ragged Mountain	2001	45	775	7
+897	New Hampshire	Gunstock	2001	45	449	0
+898	New Hampshire	Cannon Mountain	2001	44	730	6
+899	New Hampshire	Pats Peak	2001	40	495	2
+900	New Hampshire	Waterville Valley	2001	39	489	2
+901	New Hampshire	Dartmouth Skiway	2001	34		
+902	New Hampshire	Black Mountain	2001	32		
+903	New Hampshire	Cranmore	2001	32	489	5
+904	New Hampshire	King Pine	2001	29	498	7
+905	New Hampshire	Campton Mountain	2001	16		
+906	New Hampshire	Bretton Woods	2002	57	1179	0
+907	New Hampshire	Loon	2002	54	489	
+908	New Hampshire	Wildcat	2002	52	1095	1
+909	New Hampshire	Mt. Sunapee	2002	51	920	8
+910	New Hampshire	Gunstock	2002	46	449	
+911	New Hampshire	Cannon Mountain	2002	45	730	6
+912	New Hampshire	Pats Peak	2002	40	495	2
+913	New Hampshire	Waterville Valley	2002	39	489	2
+914	New Hampshire	Tenney Mountain	2002	37	299	
+915	New Hampshire	Dartmouth Skiway	2002	36	500	3
+916	New Hampshire	Cranmore	2002	35	459	3
+917	New Hampshire	Black Mountain	2002	32	499	5
+918	New Hampshire	Campton Mountain	2002	16		
+919	New Hampshire	Kanc. Recreation Area	2002	10		
+920	New Hampshire	Arrowhead	2002	7		
+921	New Hampshire	Attitash Bear Peak	2002		1249	
+922	New Hampshire	Ragged Mountain	2002		775	
+923	New Hampshire	King Pine	2002		498	
+924	New Hampshire	Bretton Woods	2003	59	1180	0
+925	New Hampshire	Mt. Sunapee	2003	54	965	7
+926	New Hampshire	Loon	2003	54	459	
+927	New Hampshire	Wildcat Mountain	2003	52	1095	1
+928	New Hampshire	Attitash Bear Peak	2003	49	699	4
+929	New Hampshire	Gunstock	2003	49	479	
+930	New Hampshire	Ragged Mountain	2003	49	815	6
+931	New Hampshire	Crotched Mountain	2003	45	449	0
+932	New Hampshire	Cannon Mountain	2003	45	730	6
+933	New Hampshire	Pats Peak	2003	42	349	
+934	New Hampshire	Waterville Valley	2003	39	459	1
+935	New Hampshire	Tenney Mountain	2003	39	299	
+936	New Hampshire	Dartmouth Skiway	2003	38	510	3
+937	New Hampshire	Balsams Wilderness	2003	35		
+938	New Hampshire	Cranmore	2003	35	349	0
+939	New Hampshire	King Pine	2003	32		
+940	New Hampshire	Black Mountain	2003	32		
+941	New Hampshire	McIntyre	2003	23	220	
+942	New Hampshire	Granite Gorge	2003	20		
+943	New Hampshire	Kanc. Recreation Area	2003	10	50	
+944	New Hampshire	Arrowhead	2003	7		
+945	New Hampshire	Cog Railway	2004	59		
+946	New Hampshire	Loon Mountain	2004	59		
+947	New Hampshire	Bretton Woods	2004	59	1180	0
+948	New Hampshire	Mt. Sunapee	2004	56	995	7
+949	New Hampshire	Wildcat Mountain	2004	55	699	2
+950	New Hampshire	Attitash Bear Peak	2004	55	1100	0
+951	New Hampshire	Ragged Mountain	2004	49	815	6
+952	New Hampshire	Waterville Valley	2004	44		
+953	New Hampshire	Pats Peak	2004	43	349	
+954	New Hampshire	Cranmore	2004	39	349	
+955	New Hampshire	Crotched Mountain	2004	39	449	1
+956	New Hampshire	Tenney Mountain	2004	39	329	
+957	New Hampshire	Dartmouth Skiway	2004	38	515	3
+958	New Hampshire	Balsams Wilderness	2004	35		
+959	New Hampshire	King Pine	2004	34	498	4
+960	New Hampshire	Black Mountain	2004	32	499	5
+961	New Hampshire	Granite Gorge	2004	20		
+962	New Hampshire	Kanc. Recreation Area	2004	10		
+963	New Hampshire	Arrowhead	2004	7		
+964	New Hampshire	Cannon	2004		595	
+965	New Hampshire	McIntyre	2004		230	
+966	New Hampshire	Loon Mountain	2005	65		
+967	New Hampshire	Bretton Woods	2005	64	499	
+968	New Hampshire	Cog Railway	2005	59		
+969	New Hampshire	Attitash	2005	59	1300	2
+970	New Hampshire	Mt. Sunapee	2005	58	899	5
+971	New Hampshire	Waterville Valley	2005	55		
+972	New Hampshire	Wildcat Mountain	2005	55	699	2
+973	New Hampshire	Ragged Mountain	2005	52	815	5
+974	New Hampshire	Gunstock	2005	52	549	0
+975	New Hampshire	Pats Peak	2005	47	349	
+976	New Hampshire	Cranmore	2005	45	399	
+977	New Hampshire	Crotched Mountain	2005	44	469	0
+978	New Hampshire	Dartmouth Skiway	2005	40	475	1
+979	New Hampshire	Tenney Mountain	2005	39	349	
+980	New Hampshire	King Pine	2005	36	498	3
+981	New Hampshire	Whaleback	2005	35	300	
+982	New Hampshire	Balsams Wilderness	2005	35		
+983	New Hampshire	Black Mountain	2005	32	499	5
+984	New Hampshire	Granite Gorge	2005	29		
+985	New Hampshire	Arrowhead	2005	7		
+986	New Hampshire	Loon Mountain	2006	67	569	
+987	New Hampshire	Attitash	2006	65	1200	8
+988	New Hampshire	Bretton Woods	2006	64	499	
+989	New Hampshire	Mt. Sunapee	2006	62	929	5
+990	New Hampshire	Waterville Valley	2006	59	569	
+991	New Hampshire	Wildcat Mountain	2006	59	699	1
+992	New Hampshire	Gunstock	2006	56	549	
+993	New Hampshire	Ragged Mountain	2006	54	815	5
+994	New Hampshire	Cannon Mountain	2006	54	595	1
+995	New Hampshire	Pats Peak	2006	48	369	
+996	New Hampshire	Crotched Mountain	2006	47	469	0
+997	New Hampshire	Cranmore	2006	47	429	
+998	New Hampshire	Dartmouth Skiway	2006	40	475	1
+999	New Hampshire	Whaleback	2006	39	399	0
+1000	New Hampshire	Balsams Wilderness	2006	38		
+1001	New Hampshire	Black Mountain	2006	32	499	5
+1002	New Hampshire	Granite Gorge	2006	29	299	0
+1003	New Hampshire	McIntyre	2006	27	250	
+1004	New Hampshire	Storrs Hill	2006	10		
+1005	New Hampshire	Tenney Mountain	2006		375	
+1006	New Hampshire	King Pine	2006		498	
+1007	New Hampshire	Bretton Woods	2007	69	749	0
+1008	New Hampshire	Loon Mountain	2007	69	849	2
+1009	New Hampshire	Attitash	2007	65	699	0
+1010	New Hampshire	Mt. Sunapee	2007	64	969	5
+1011	New Hampshire	Waterville Valley	2007	61	849	3
+1012	New Hampshire	Cannon Mountain	2007	60	630	0
+1013	New Hampshire	Wildcat Mountain	2007	59	699	1
+1014	New Hampshire	Gunstock	2007	59	499	
+1015	New Hampshire	Pats Peak	2007	49	389	
+1016	New Hampshire	Cranmore	2007	49	499	0
+1017	New Hampshire	Crotched Mountain	2007	48	499	0
+1018	New Hampshire	Tenney Mountain	2007	45	299	
+1019	New Hampshire	Dartmouth Skiway	2007	40		
+1020	New Hampshire	Whaleback	2007	39	350	
+1021	New Hampshire	Black Mountain	2007	39	499	2
+1022	New Hampshire	King Pine	2007	39	498	2
+1023	New Hampshire	Balsams Wilderness	2007	38	499	3
+1024	New Hampshire	Granite Gorge	2007	29	299	0
+1025	New Hampshire	McIntyre	2007	27		
+1026	New Hampshire	Arrowhead	2007	7		
+1027	New Hampshire	Ragged Mountain	2007		399	
+1028	New Hampshire	Bretton Woods	2008	74	849	1
+1029	New Hampshire	Loon Mountain	2008	73	1049	4
+1030	New Hampshire	Attitash	2008	69	779	1
+1031	New Hampshire	Mt. Sunapee	2008	66	999	5
+1032	New Hampshire	Waterville Valley	2008	65	749	1
+1033	New Hampshire	Wildcat Mountain	2008	65	899	3
+1034	New Hampshire	Cannon Mountain	2008	64	670	0
+1035	New Hampshire	Gunstock	2008	64	499	
+1036	New Hampshire	Ragged Mountain	2008	59	499	
+1037	New Hampshire	Cranmore	2008	55	529	
+1038	New Hampshire	Pats Peak	2008	52	419	
+1039	New Hampshire	Crotched Mountain	2008	51	608	1
+1040	New Hampshire	Tenney Mountain	2008	49	200	
+1041	New Hampshire	King Pine	2008	42	498	1
+1042	New Hampshire	Dartmouth Skiway	2008	40	475	1
+1043	New Hampshire	Black Mountain	2008	39		
+1044	New Hampshire	Granite Gorge	2008	39		
+1045	New Hampshire	Balsams Wilderness	2008	38		
+1046	New Hampshire	McIntyre	2008	27	250	
+1047	New Hampshire	Kanc. Recreation Area	2008	10		
+1048	New Hampshire	Mount Prospect Ski Club	2008	7		
+1049	New Hampshire	Whaleback	2008		350	
+1050	New Hampshire	Veterans Memorial	2008		105	
+1051	New Hampshire	Bretton Woods	2009	74	899	2
+1052	New Hampshire	Loon Mountain	2009	73	1049	4
+1053	New Hampshire	Attitash	2009	69		
+1054	New Hampshire	Mt. Sunapee	2009	68		
+1055	New Hampshire	Gunstock	2009	66	519	
+1056	New Hampshire	Cannon Mountain	2009	66	699	0
+1057	New Hampshire	Wildcat Mountain	2009	65	749	1
+1058	New Hampshire	Ragged Mountain	2009	62	499	
+1059	New Hampshire	Cranmore	2009	55	529	
+1060	New Hampshire	Pats Peak	2009	54	429	
+1061	New Hampshire	Crotched Mountain	2009	51	608	1
+1062	New Hampshire	Tenney Mountain	2009	50	349	
+1063	New Hampshire	Granite Gorge	2009	45		
+1064	New Hampshire	King Pine	2009	44	525	1
+1065	New Hampshire	Dartmouth Skiway	2009	40	475	1
+1066	New Hampshire	Black Mountain	2009	39	499	2
+1067	New Hampshire	Balsams Wilderness	2009	38		
+1068	New Hampshire	McIntyre	2009	29	229	
+1069	New Hampshire	Kanc. Recreation Area	2009	10		
+1070	New Hampshire	Arrowhead	2009	8		
+1071	New Hampshire	Mount Prospect Ski Club	2009	7		
+1072	New Hampshire	Abenaki	2009		70	
+1073	New Hampshire	Veterans Memorial	2009		120	
+1074	New Hampshire	Loon	2010	76	1079	4
+1075	New Hampshire	Bretton Woods	2010	76	899	1
+1076	New Hampshire	Mt. Sunapee	2010	70		
+1077	New Hampshire	Wildcat	2010	70		
+1078	New Hampshire	Attitash	2010	70	799	1
+1079	New Hampshire	Gunstock	2010	69	539	
+1080	New Hampshire	Waterville Valley	2010	69		
+1081	New Hampshire	Ragged Mountain	2010	68	499	
+1082	New Hampshire	Cannon Mountain	2010	67	729	0
+1083	New Hampshire	Cranmore	2010	59	569	
+1084	New Hampshire	Pats Peak	2010	56	449	
+1085	New Hampshire	Crotched Mountain	2010	54	599	1
+1086	New Hampshire	King Pine	2010	45	525	1
+1087	New Hampshire	Balsams Wilderness	2010	45		
+1088	New Hampshire	Black Mountain	2010	45	469	0
+1089	New Hampshire	Granite Gorge	2010	42		
+1090	New Hampshire	Dartmouth Skiway	2010	40	475	1
+1091	New Hampshire	McIntyre	2010	32	229	
+1092	New Hampshire	Campton Mountain	2010	20		
+1093	New Hampshire	Kanc. Recreation Area	2010	10		
+1094	New Hampshire	Storrs Hill	2010	10	100	0
+1095	New Hampshire	Arrowhead	2010	8	120	5
+1096	New Hampshire	Mount Prospect Ski Club	2010	7		
+1097	New Hampshire	Whaleback	2010		370	
+1098	New Hampshire	Veterans Memorial	2010		120	
+1099	New Hampshire	Bretton Woods	2011	78	1119	4
+1100	New Hampshire	Loon	2011	78	1149	4
+1101	New Hampshire	Waterville Valley	2011	73	819	1
+1102	New Hampshire	Mt. Sunapee	2011	72	1089	5
+1103	New Hampshire	Gunstock	2011	72	579	
+1104	New Hampshire	Ragged Mountain	2011	71	529	
+1105	New Hampshire	Attitash	2011	70	799	1
+1106	New Hampshire	Wildcat	2011	70	799	1
+1107	New Hampshire	Cannon Mountain	2011	68	760	1
+1108	New Hampshire	Cranmore	2011	64	619	
+1109	New Hampshire	Pats Peak	2011	58	469	
+1110	New Hampshire	Crotched Mountain	2011	54	599	1
+1111	New Hampshire	King Pine	2011	47	545	1
+1112	New Hampshire	Black Mountain	2011	45	469	0
+1113	New Hampshire	Dartmouth Skiway	2011	43		
+1114	New Hampshire	Granite Gorge	2011	42	399	
+1115	New Hampshire	Whaleback	2011	40	370	
+1116	New Hampshire	McIntyre	2011	34	250	
+1117	New Hampshire	Veterans Memorial Ski Area	2011	15		
+1118	New Hampshire	Campton Mountain	2011	12		
+1119	New Hampshire	Abenaki	2011	10	70	
+1120	New Hampshire	Kanc. Recreation Area	2011	10	50	
+1121	New Hampshire	Storrs Hill	2011	10	100	0
+1122	New Hampshire	Arrowhead	2011	8	120	5
+1123	New Hampshire	Mount Prospect Ski Club	2011	7		
+1124	New Hampshire	Loon	2012	79	1175	4
+1125	New Hampshire	Bretton Woods	2012	79	899	1
+1126	New Hampshire	Mt. Sunapee	2012	74	1119	5
+1127	New Hampshire	Waterville Valley	2012	73	845	1
+1128	New Hampshire	Gunstock	2012	72	575	
+1129	New Hampshire	Ragged Mountain	2012	71	529	
+1130	New Hampshire	Attitash	2012	70	799	1
+1131	New Hampshire	Cannon Mountain	2012	70	785	1
+1132	New Hampshire	Wildcat Mountain	2012	70	799	1
+1133	New Hampshire	Pats Peak	2012	60	499	
+1134	New Hampshire	Crotched Mountain	2012	59	649	1
+1135	New Hampshire	Cranmore Mountain	2012	59	639	0
+1136	New Hampshire	Black Mountain	2012	49	575	1
+1137	New Hampshire	King Pine	2012	47	545	1
+1138	New Hampshire	Dartmouth Skiway	2012	45		
+1139	New Hampshire	Granite Gorge	2012	45		
+1140	New Hampshire	Whaleback Mountain	2012	40	399	0
+1141	New Hampshire	McIntyre	2012	34	250	
+1142	New Hampshire	Kanc. Recreation Area	2012	20		
+1143	New Hampshire	Veterans Memorial Ski Area	2012	15		
+1144	New Hampshire	Campton	2012	12		
+1145	New Hampshire	Abenaki	2012	10	70	
+1146	New Hampshire	Storrs Hill	2012	10	100	0
+1147	New Hampshire	Arrowhead	2012	8	120	5
+1148	New Hampshire	Mount Prospect Ski Club	2012	7		
+1149	New Hampshire	Bretton Woods	2013	82	999	2
+1150	New Hampshire	Loon	2013	81	1210	4
+1151	New Hampshire	Mt. Sunapee	2013	76	1149	5
+1152	New Hampshire	Waterville Valley	2013	75	899	2
+1153	New Hampshire	Gunstock	2013	75	599	
+1154	New Hampshire	Ragged Mountain	2013	73	579	
+1155	New Hampshire	Cannon	2013	72	799	1
+1156	New Hampshire	Attitash	2013	70	799	1
+1157	New Hampshire	Wildcat	2013	70	799	1
+1158	New Hampshire	Cranmore	2013	63	639	0
+1159	New Hampshire	Pats Peak	2013	62	519	
+1160	New Hampshire	Crotched Mountain	2013	62	549	
+1161	New Hampshire	King Pine	2013	49	560	1
+1162	New Hampshire	Black Mountain	2013	49	600	2
+1163	New Hampshire	Granite Gorge	2013	47	425	
+1164	New Hampshire	Dartmouth Skiway	2013	45		
+1165	New Hampshire	Whaleback	2013	40	399	0
+1166	New Hampshire	McIntyre	2013	34	250	
+1167	New Hampshire	Kanc Recreation Area	2013	20	100	
+1168	New Hampshire	Abenaki	2013	17	153	
+1169	New Hampshire	Campton	2013	12		
+1170	New Hampshire	Storrs Hill	2013	10	100	0
+1171	New Hampshire	Arrowhead	2013	8	120	5
+1172	New Hampshire	Mt. Prospect	2013	7		
+1173	New Hampshire	Bretton Woods	2014	85	999	1
+1174	New Hampshire	Loon	2014	83	1245	5
+1175	New Hampshire	Mt. Sunapee	2014	79	1199	5
+1176	New Hampshire	Ragged Mountain	2014	79	749	
+1177	New Hampshire	Gunstock	2014	78	639	
+1178	New Hampshire	Attitash	2014	75	829	1
+1179	New Hampshire	Wildcat	2014	75	829	1
+1180	New Hampshire	Waterville Valley	2014	75	929	2
+1181	New Hampshire	Cannon	2014	74	829	1
+1182	New Hampshire	Cranmore	2014	64	679	0
+1183	New Hampshire	Pats Peak	2014	64	529	
+1184	New Hampshire	Crotched Mountain	2014	62	569	
+1185	New Hampshire	Black Mountain	2014	55	700	2
+1186	New Hampshire	King Pine	2014	52	560	0
+1187	New Hampshire	Dartmouth Skiway	2014	47	545	1
+1188	New Hampshire	Granite Gorge	2014	47	445	
+1189	New Hampshire	Whaleback	2014	45	399	
+1190	New Hampshire	McIntyre	2014	36	270	
+1191	New Hampshire	Veterans Memorial	2014	20	125	
+1192	New Hampshire	Kanc Recreation Area	2014	20	100	
+1193	New Hampshire	Abenaki	2014	17	153	
+1194	New Hampshire	Campton	2014	15		
+1195	New Hampshire	Storrs Hill	2014	10	100	0
+1196	New Hampshire	Arrowhead	2014	9	120	3
+1197	New Hampshire	Mt. Prospect	2014	7		
+1198	New Hampshire	Bretton Woods	2015	89	999	1
+1199	New Hampshire	Loon	2015	85	1245	4
+1200	New Hampshire	Mt. Sunapee	2015	82	1249	5
+1201	New Hampshire	Gunstock	2015	82	659	
+1202	New Hampshire	Ragged Mountain	2015	79	749	
+1203	New Hampshire	Wildcat	2015	79	859	0
+1204	New Hampshire	Attitash	2015	79	859	0
+1205	New Hampshire	Waterville Valley	2015	77	949	2
+1206	New Hampshire	Cannon	2015	75	859	1
+1207	New Hampshire	Cranmore	2015	70	699	0
+1208	New Hampshire	Pats Peak	2015	66	539	
+1209	New Hampshire	Crotched Mountain	2015	64	589	
+1210	New Hampshire	Black Mountain	2015	55	700	2
+1211	New Hampshire	King Pine	2015	52	560	0
+1212	New Hampshire	Granite Gorge	2015	49	445	
+1213	New Hampshire	Dartmouth Skiway	2015	47	545	1
+1214	New Hampshire	Whaleback	2015	43	399	
+1215	New Hampshire	McIntyre	2015	36	280	
+1216	New Hampshire	Kanc Recreation Area	2015	20	100	
+1217	New Hampshire	Abenaki	2015	17	153	
+1218	New Hampshire	Campton Mountain	2015	15	100	
+1219	New Hampshire	Storrs Hill	2015	10	100	0
+1220	New Hampshire	Arrowhead	2015	9	120	3
+1221	New Hampshire	Loon	2016	95	1309	3
+1222	New Hampshire	Bretton Woods	2016	89	1049	1
+1223	New Hampshire	Gunstock	2016	86	679	
+1224	New Hampshire	Mt. Sunapee	2016	84	1269	5
+1225	New Hampshire	Waterville Valley	2016	81	979	2
+1226	New Hampshire	Wildcat	2016	79	999	2
+1227	New Hampshire	Attitash	2016	79	999	2
+1228	New Hampshire	Ragged Mountain	2016	79	449	
+1229	New Hampshire	Cannon Mountain	2016	75	859	1
+1230	New Hampshire	Cranmore	2016	72	729	0
+1231	New Hampshire	Pats Peak	2016	68	549	
+1232	New Hampshire	Crotched Mountain	2016	64	899	4
+1233	New Hampshire	King Pine	2016	55	560	0
+1234	New Hampshire	Black Mountain	2016	55	700	2
+1235	New Hampshire	Granite Gorge	2016	49	445	
+1236	New Hampshire	Dartmouth Skiway	2016	48	555	1
+1237	New Hampshire	Whaleback	2016	45	420	
+1238	New Hampshire	McIntyre	2016	38	280	
+1239	New Hampshire	Gateway Hills	2016	25		
+1240	New Hampshire	Kanc Recreation Area	2016	20	100	
+1241	New Hampshire	Veterans Memorial	2016	20	125	
+1242	New Hampshire	Abenaki	2016	17	153	
+1243	New Hampshire	Campton Mountain	2016	15	100	
+1244	New Hampshire	Storrs Hill	2016	10	125	2
+1245	New Hampshire	Mt. Eustis	2016	5		
+1246	New Hampshire	Arrowhead	2016		120	
+1247	New Hampshire	Loon	2017	96	1349	4
+1248	New Hampshire	Mt. Sunapee	2017	93	1375	4
+1249	New Hampshire	Bretton Woods	2017	93	1069	1
+1250	New Hampshire	Gunstock	2017	88	649	
+1251	New Hampshire	Waterville Valley	2017	87	1028	1
+1252	New Hampshire	Wildcat	2017	85	999	1
+1253	New Hampshire	Attitash	2017	85	999	1
+1254	New Hampshire	Ragged Mountain	2017	79	449	
+1255	New Hampshire	Cannon Mountain	2017	77	889	1
+1256	New Hampshire	Cranmore	2017	75	749	0
+1257	New Hampshire	Pats Peak	2017	70	549	
+1258	New Hampshire	Crotched	2017	69	899	3
+1259	New Hampshire	Black Mountain	2017	59	599	0
+1260	New Hampshire	King Pine	2017	55	560	0
+1261	New Hampshire	Dartmouth Skiway	2017	49	449	
+1262	New Hampshire	Whaleback	2017	45	399	
+1263	New Hampshire	Tenney Mountain	2017	45		
+1264	New Hampshire	McIntyre	2017	38	280	
+1265	New Hampshire	Gateway Hills	2017	35		
+1266	New Hampshire	Granite Gorge	2017	33	299	
+1267	New Hampshire	Campton Mountain	2017	20		
+1268	New Hampshire	Veterans Memorial	2017	20	125	
+1269	New Hampshire	Kanc Recreation	2017	20	100	
+1270	New Hampshire	Storrs Hill	2017	15	125	
+1271	New Hampshire	Proctor Ski Area	2017	15		
+1272	New Hampshire	Mt. Eustis	2017	5		
+1273	New Hampshire	Bretton Woods	2018	99	1069	0
+1274	New Hampshire	Mt. Sunapee	2018	98	709	
+1275	New Hampshire	Loon	2018	98	1389	4
+1276	New Hampshire	Waterville Valley	2018	93	1078	1
+1277	New Hampshire	Gunstock	2018	92	659	
+1278	New Hampshire	Wildcat	2018	89	1129	2
+1279	New Hampshire	Ragged Mountain	2018	89	499	
+1280	New Hampshire	Attitash	2018	89	1129	2
+1281	New Hampshire	Cranmore	2018	83	855	0
+1282	New Hampshire	Cannon Mountain	2018	79	799	0
+1283	New Hampshire	Tenney	2018	75	389	
+1284	New Hampshire	Pats Peak	2018	72	559	
+1285	New Hampshire	Crotched Mountain	2018	69	1129	6
+1286	New Hampshire	Black Mountain	2018	59	599	0
+1287	New Hampshire	King Pine	2018	58	595	0
+1288	New Hampshire	Dartmouth Skiway	2018	50	405	
+1289	New Hampshire	Whaleback	2018	45	350	
+1290	New Hampshire	McIntyre	2018	38	289	
+1291	New Hampshire	Granite Gorge	2018	29		
+1292	New Hampshire	Abenaki	2018	20	160	
+1293	New Hampshire	Campton Mountain	2018	20		
+1294	New Hampshire	Kanc Recreation	2018	20	100	
+1295	New Hampshire	Storrs Hill	2018	15	140	
+1296	New Hampshire	Mt. Eustis	2018	5		
+1297	New Hampshire	Bretton Woods	2019	104	1109	0
+1298	New Hampshire	Loon	2019	104	1419	3
+1299	New Hampshire	Mt. Sunapee	2019	99	739	
+1300	New Hampshire	Gunstock	2019	96	749	
+1301	New Hampshire	Waterville Valley	2019	96	1078	1
+1302	New Hampshire	Ragged Mountain	2019	92	519	
+1303	New Hampshire	Attitash	2019	89	739	
+1304	New Hampshire	Wildcat	2019	89	739	
+1305	New Hampshire	Cranmore	2019	89	879	
+1306	New Hampshire	Cannon	2019	82	829	0
+1307	New Hampshire	Pats Peak	2019	75	559	
+1308	New Hampshire	Crotched Mountain	2019	71	739	0
+1309	New Hampshire	Black Mountain	2019	62	599	
+1310	New Hampshire	King Pine	2019	59	595	0
+1311	New Hampshire	Tenney Mountain	2019	59	389	
+1312	New Hampshire	Dartmouth Skiway	2019	53	465	
+1313	New Hampshire	Whaleback	2019	45		
+1314	New Hampshire	McIntyre	2019	42	299	
+1315	New Hampshire	Granite Gorge	2019	30		
+1316	New Hampshire	Abenaki	2019	25	160	
+1317	New Hampshire	Campton Mountain	2019	22		
+1318	New Hampshire	Kanc Rec	2019	20	100	
+1319	New Hampshire	Storrs Hill	2019	15	160	0
+1320	New Hampshire	Arrowhead	2019	9	120	3
+1321	New Hampshire	Bretton Woods	2020	115		
+1322	New Hampshire	Loon	2020	104		
+1323	New Hampshire	Waterville Valley	2020	102	1153	1
+1324	New Hampshire	Cranmore	2020	99		
+1325	New Hampshire	Gunstock	2020	96	899	
+1326	New Hampshire	Ragged Mountain	2020	94	599	
+1327	New Hampshire	Attitash	2020	94	639	
+1328	New Hampshire	Wildcat	2020	94	639	
+1329	New Hampshire	Cannon	2020	89		
+1330	New Hampshire	Mt. Sunapee	2020	83	639	
+1331	New Hampshire	Pats Peak	2020	79		
+1332	New Hampshire	Crotched	2020	75	639	
+1333	New Hampshire	King Pine	2020	65	600	
+1334	New Hampshire	Black Mountain	2020	62	599	
+1335	New Hampshire	Dartmouth Skiway	2020	53		
+1336	New Hampshire	Whaleback	2020	45		
+1337	New Hampshire	McIntyre	2020	42	339	
+1338	New Hampshire	Loon	2021	120	1599	3
+1339	New Hampshire	Bretton Woods	2021	119	1199	0
+1340	New Hampshire	Mt. Sunapee	2021	109	499	
+1341	New Hampshire	Waterville Valley	2021	102	1188	1
+1342	New Hampshire	Cranmore	2021	99	959	
+1343	New Hampshire	Cannon	2021	99	839	
+1344	New Hampshire	Wildcat	2021	99	499	
+1345	New Hampshire	Attitash	2021	99	499	
+1346	New Hampshire	Gunstock	2021	96	899	
+1347	New Hampshire	Ragged Mountain	2021	94	699	
+1348	New Hampshire	Pats Peak	2021	79	569	
+1349	New Hampshire	Crotched Mountain	2021	78	499	
+1350	New Hampshire	Black Mountain	2021	72		
+1351	New Hampshire	King Pine	2021	72		
+1352	New Hampshire	Dartmouth Skiway	2021	53	455	
+1353	New Hampshire	Whaleback	2021	50	250	
+1354	New Hampshire	McIntyre	2021	48	369	
+1355	New Hampshire	Abenaki	2021	20	150	
+1356	New Hampshire	Storrs Hill	2021	15	160	0
+1357	New Hampshire	Arrowhead	2021	9		
+1358	New Hampshire	Mt. Eustis	2021	5	50	0
+1359	New Hampshire	Veterans Memorial	2021		175	
+1360	New Hampshire	Bretton Woods	2022	129	1259	
+1361	New Hampshire	Loon	2022	129		
+1362	New Hampshire	Mt. Sunapee	2022	119	557	
+1363	New Hampshire	Waterville Valley	2022	116	1306	1
+1364	New Hampshire	Wildcat	2022	115	557	
+1365	New Hampshire	Attitash	2022	115	557	
+1366	New Hampshire	Ragged Mountain	2022	114	704	
+1367	New Hampshire	Cranmore	2022	109		
+1368	New Hampshire	Gunstock	2022	99	899	
+1369	New Hampshire	Pats Peak	2022	92	589	
+1370	New Hampshire	Crotched	2022	89	557	
+1371	New Hampshire	Tenney	2022	89		
+1372	New Hampshire	Black Mountain	2022	85	649	
+1373	New Hampshire	King Pine	2022	75	629	
+1374	New Hampshire	Dartmouth Skiway	2022	65	539	
+1375	New Hampshire	McIntyre	2022	52	409	
+1376	New Hampshire	Arrowhead	2022	10		
+1377	New Hampshire	Mt. Eustis	2022	5	50	0
+1378	New Hampshire	Granite Gorge	2022		399	
+1379	New Hampshire	Abenaki	2022		150	
+1380	New Hampshire	Whaleback	2022		275	
+1381	Rhode Island	Yawgoo Valley	2001	30		
+1382	Rhode Island	Yawgoo Valley	2002	32		
+1383	Rhode Island	Yawgoo Valley	2003	34		
+1384	Rhode Island	Yawgoo Valley	2004	35	360	0
+1385	Rhode Island	Yawgoo Valley	2005	37		
+1386	Rhode Island	Yawgoo Valley	2006	37	370	0
+1387	Rhode Island	Yawgoo Valley	2007	38		
+1388	Rhode Island	Yawgoo Valley	2008	40	400	0
+1389	Rhode Island	Yawgoo Valley	2009	42		
+1390	Rhode Island	Yawgoo Valley	2010	42	425	0
+1391	Rhode Island	Yawgoo Valley	2011	42	425	0
+1392	Rhode Island	Yawgoo Valley	2012	42	425	0
+1393	Rhode Island	Yawgoo Valley	2013	45	425	
+1394	Rhode Island	Yawgoo Valley	2014	47	425	
+1395	Rhode Island	Yawgoo Valley	2015	47	425	
+1396	Rhode Island	Yawgoo Valley	2016	49	475	
+1397	Rhode Island	Yawgoo Valley	2017	47		
+1398	Rhode Island	Yawgoo Valley	2018	48	475	
+1399	Rhode Island	Yawgoo Valley	2019	50	449	
+1400	Rhode Island	Yawgoo Valley	2021	55		
+1401	Vermont	Killington	1994	46		
+1402	Vermont	Okemo	1994	45		
+1403	Vermont	Mount Snow	1994	45		
+1404	Vermont	Stratton	1994	43		
+1405	Vermont	Stowe	1994	43		
+1406	Vermont	Sugarbush	1994	42		
+1407	Vermont	Pico	1994	41		
+1408	Vermont	Jay Peak	1994	37		
+1409	Vermont	Burke	1994	22		
+1410	Vermont	Stowe	1995	48		
+1411	Vermont	Okemo	1995	46		
+1412	Vermont	Bromley	1995	39		
+1413	Vermont	Jay Peak	1995	38		
+1414	Vermont	Bolton Valley	1995	37		
+1415	Vermont	Smugglers Notch	1995	36		
+1416	Vermont	Haystack	1995	35		
+1417	Vermont	Burke	1995	29		
+1418	Vermont	Mount Snow	1996	49		
+1419	Vermont	Stratton Mountain	1996	49		
+1420	Vermont	Okemo Mountain	1996	48		
+1421	Vermont	Smugglers Notch	1996	42		
+1422	Vermont	Jay Peak	1996	40		
+1423	Vermont	Bromley	1996	39	785	0
+1424	Vermont	Haystack	1996	37		
+1425	Vermont	Bolton Valley	1996	35		
+1426	Vermont	Burke	1996	35		
+1427	Vermont	Mad River Glen	1996	32	590	8
+1428	Vermont	Killington	1996		1500	
+1429	Vermont	Killington	1997	51	1249	4
+1430	Vermont	Mount Snow	1997	51	1149	2
+1431	Vermont	Stratton Mountain	1997	50	1150	3
+1432	Vermont	Stowe	1997	50	1230	4
+1433	Vermont	Okemo Mountain	1997	50	1110	2
+1434	Vermont	Sugarbush	1997	49	1099	2
+1435	Vermont	Smugglers' Notch	1997	44	369	
+1436	Vermont	Bromley	1997	43	890	0
+1437	Vermont	Jay Peak	1997	42	475	1
+1438	Vermont	Pico	1997	39	849	1
+1439	Vermont	Ascutney Mountain	1997	39		
+1440	Vermont	Bolton Valley	1997	38	375	
+1441	Vermont	Burke	1997	38	675	7
+1442	Vermont	Haystack	1997	37	599	6
+1443	Vermont	Mad River Glen	1997	34	620	8
+1444	Vermont	Magic Mountain	1997	32		
+1445	Vermont	Killington	1998	52	1299	5
+1446	Vermont	Mount Snow	1998	52	1229	3
+1447	Vermont	Bromley	1998	46	925	0
+1448	Vermont	Pico	1998	42	849	0
+1449	Vermont	Burke	1998	42	725	7
+1450	Vermont	Haystack	1998	39	635	6
+1451	Vermont	Suicide Six	1998	38	496	3
+1452	Vermont	Mad River Glen	1998	36		
+1453	Vermont	Magic Mountain	1998	35	295	
+1454	Vermont	Quechee	1998	22		
+1455	Vermont	Cochran's Ski Area	1998	12		
+1456	Vermont	Sugarbush	1998		1299	
+1457	Vermont	Stratton Mountain	1999	59	1200	0
+1458	Vermont	Killington	1999	56	1249	2
+1459	Vermont	Okemo Mountain	1999	54	1150	1
+1460	Vermont	Jay Peak	1999	49	798	6
+1461	Vermont	Smugglers' Notch	1999	48		
+1462	Vermont	Bromley	1999	47	925	9
+1463	Vermont	Pico	1999	45	549	2
+1464	Vermont	Ascutney Mountain	1999	43	599	3
+1465	Vermont	Burke	1999	42	725	7
+1466	Vermont	Suicide Six	1999	40	516	2
+1467	Vermont	Bolton Valley	1999	39	499	2
+1468	Vermont	Magic Mountain	1999	38	695	8
+1469	Vermont	Mad River Glen	1999	36	650	8
+1470	Vermont	Middlebury	1999	30		
+1471	Vermont	Maple Valley	1999	28		
+1472	Vermont	Quechee	1999	22		
+1473	Vermont	Cochran's Ski Area	1999	12		
+1474	Vermont	Stowe	1999		1290	
+1475	Vermont	Stratton Mountain	2000	60	1260	1
+1476	Vermont	Killington	2000	58	1249	1
+1477	Vermont	Okemo Mountain	2000	56	1150	0
+1478	Vermont	Stowe	2000	56	1290	3
+1479	Vermont	Sugarbush	2000	55		
+1480	Vermont	Mount Snow	2000	55		
+1481	Vermont	Bromley	2000	49	925	8
+1482	Vermont	Jay Peak	2000	49	798	6
+1483	Vermont	Smugglers Notch	2000	48	523	0
+1484	Vermont	Ascutney Mountain	2000	46	699	5
+1485	Vermont	Pico	2000	45	549	2
+1486	Vermont	Suicide Six	2000	42		
+1487	Vermont	Mad River Glen	2000	40	650	6
+1488	Vermont	Bolton Valley	2000	39	586	5
+1489	Vermont	Burke Mountain	2000	39		
+1490	Vermont	Magic Mountain	2000	38	595	5
+1491	Vermont	Haystack	2000	35		
+1492	Vermont	Middlebury College Snow Bowl	2000	30	575	9
+1493	Vermont	Cochran's Ski Area	2000	12		
+1494	Vermont	Killington	2001	62	1099	7
+1495	Vermont	Okemo Mountain	2001	59	1200	0
+1496	Vermont	Stowe	2001	58	1350	3
+1497	Vermont	Mount Snow	2001	56		
+1498	Vermont	Sugarbush	2001	55		
+1499	Vermont	Jay Peak	2001	52		
+1500	Vermont	Bromley	2001	51	925	8
+1501	Vermont	Ascutney Mountain	2001	49	799	6
+1502	Vermont	Smugglers Notch	2001	48	544	1
+1503	Vermont	Suicide Six	2001	46		
+1504	Vermont	Pico	2001	45	549	2
+1505	Vermont	Bolton Valley	2001	44	576	3
+1506	Vermont	Magic Mountain	2001	42	499	1
+1507	Vermont	Mad River Glen	2001	40	650	6
+1508	Vermont	Burke Mountain	2001	39	529	3
+1509	Vermont	Haystack	2001	38		
+1510	Vermont	Middlebury College Snow Bowl	2001	32	585	8
+1511	Vermont	Cochran's Ski Area	2001	12		
+1512	Vermont	Stratton	2001		1379	
+1513	Vermont	Stratton Mountain	2002	72	1449	0
+1514	Vermont	Killington	2002	64		
+1515	Vermont	Okemo Mountain	2002	62	1240	0
+1516	Vermont	Mount Snow	2002	61		
+1517	Vermont	Stowe	2002	60	1380	3
+1518	Vermont	Sugarbush	2002	57	1350	3
+1519	Vermont	Smugglers Notch	2002	54	586	0
+1520	Vermont	Jay Peak	2002	53	577	0
+1521	Vermont	Bromley	2002	52	950	8
+1522	Vermont	Ascutney Mountain	2002	52	799	5
+1523	Vermont	Pico	2002	48		
+1524	Vermont	Suicide Six	2002	46	587	2
+1525	Vermont	Haystack	2002	43		
+1526	Vermont	Mad River Glen	2002	42	650	5
+1527	Vermont	Magic Mountain	2002	42	499	1
+1528	Vermont	Burke Mountain	2002	39	579	4
+1529	Vermont	Middlebury College Snow Bowl	2002	32	585	8
+1530	Vermont	Cochran's Ski Area	2002	15		
+1531	Vermont	Bolton Valley	2002		418	
+1532	Vermont	Bear Creek Mountain Club	2003	75		
+1533	Vermont	Stratton Mountain	2003	72	1479	0
+1534	Vermont	Killington	2003	67		
+1535	Vermont	Okemo Mountain	2003	65	1375	1
+1536	Vermont	Mount Snow	2003	64	1349	1
+1537	Vermont	Stowe	2003	62	1415	2
+1538	Vermont	Smugglers Notch	2003	54	592	1
+1539	Vermont	Bromley	2003	54	1007	8
+1540	Vermont	Jay Peak	2003	54		
+1541	Vermont	Ascutney Mountain	2003	54	799	4
+1542	Vermont	Pico	2003	49	649	3
+1543	Vermont	Bolton Valley	2003	49	528	0
+1544	Vermont	Suicide Six	2003	48		
+1545	Vermont	Magic Mountain	2003	46	549	1
+1546	Vermont	Haystack	2003	45	369	
+1547	Vermont	Mad River Glen	2003	45	740	6
+1548	Vermont	Middlebury College Snow Bowl	2003	35	585	6
+1549	Vermont	Cochran's Ski Area	2003	15		
+1550	Vermont	Bear Creek Mountain Club	2004	75		
+1551	Vermont	Stratton Mountain	2004	72		
+1552	Vermont	Mount Snow	2004	67	1100	6
+1553	Vermont	Okemo Mountain	2004	67	1325	9
+1554	Vermont	Stowe	2004	65	1435	2
+1555	Vermont	Bromley	2004	57	1007	7
+1556	Vermont	Jay Peak	2004	56		
+1557	Vermont	Ascutney Mountain	2004	55	819	4
+1558	Vermont	Suicide Six	2004	50		
+1559	Vermont	Mad River Glen	2004	50	780	5
+1560	Vermont	Pico	2004	49	449	
+1561	Vermont	Magic Mountain	2004	49	549	1
+1562	Vermont	Bolton Valley	2004	48	486	0
+1563	Vermont	Haystack	2004	48	369	
+1564	Vermont	Burke Mountain	2004	47	569	2
+1565	Vermont	Quechee	2004	35		
+1566	Vermont	Cochran's Ski Area	2004	15		
+1567	Vermont	Living Memorial Park	2004	5		
+1568	Vermont	Killington	2004		1100	
+1569	Vermont	Stowe	2005	76	1507	9
+1570	Vermont	Bear Creek Mountain Club	2005	75		
+1571	Vermont	Stratton Mountain	2005	72	999	3
+1572	Vermont	Killington	2005	69	1300	8
+1573	Vermont	Mount Snow	2005	69	1300	8
+1574	Vermont	Okemo Mountain	2005	69	1199	7
+1575	Vermont	Sugarbush	2005	63	1319	0
+1576	Vermont	Bromley	2005	59	1033	7
+1577	Vermont	Jay Peak	2005	58		
+1578	Vermont	Smugglers' Notch	2005	58		
+1579	Vermont	Ascutney Mountain	2005	56	819	4
+1580	Vermont	Burke Mountain	2005	52	599	1
+1581	Vermont	Suicide Six	2005	52		
+1582	Vermont	Mad River Glen	2005	50	780	5
+1583	Vermont	Magic Mountain	2005	49	599	2
+1584	Vermont	Pico	2005	49	399	
+1585	Vermont	Bolton Valley	2005	49	528	0
+1586	Vermont	Middlebury College Bowl	2005	37		
+1587	Vermont	Cochran's Ski Area	2005	18		
+1588	Vermont	Living Memorial Park	2005	5		
+1589	Vermont	Stowe	2006	76	1570	0
+1590	Vermont	Stratton Mountain	2006	75	1059	4
+1591	Vermont	Bear Creek Mountain Club	2006	75		
+1592	Vermont	Killington	2006	72	1400	9
+1593	Vermont	Mount Snow	2006	72	1458	0
+1594	Vermont	Okemo Mountain	2006	72	1229	7
+1595	Vermont	Sugarbush	2006	66	1259	9
+1596	Vermont	Bromley	2006	61	1054	7
+1597	Vermont	Jay Peak	2006	59		
+1598	Vermont	Ascutney Mountain	2006	58	829	4
+1599	Vermont	Smugglers' Notch	2006	58	613	0
+1600	Vermont	Mad River Glen	2006	54	780	4
+1601	Vermont	Burke Mountain	2006	54	599	1
+1602	Vermont	Suicide Six	2006	52		
+1603	Vermont	Bolton Valley	2006	52	634	2
+1604	Vermont	Magic Mountain	2006	49	349	
+1605	Vermont	Pico	2006	49	499	0
+1606	Vermont	Middlebury College Bowl	2006	39		
+1607	Vermont	Quechee	2006	38		
+1608	Vermont	Cochran's Ski Area	2006	18		
+1609	Vermont	Living Memorial Park	2006	5		
+1610	Vermont	Stowe	2007	84	1635	9
+1611	Vermont	Killington	2007	79	1376	7
+1612	Vermont	Stratton Mountain	2007	78	1059	3
+1613	Vermont	Bear Creek Mountain Club	2007	75		
+1614	Vermont	Okemo Mountain	2007	74	1249	6
+1615	Vermont	Mount Snow	2007	72	949	3
+1616	Vermont	Sugarbush	2007	69	1399	0
+1617	Vermont	Bromley	2007	63	1054	6
+1618	Vermont	Jay Peak	2007	62		
+1619	Vermont	Ascutney Mountain	2007	60	829	3
+1620	Vermont	Smugglers' Notch	2007	60	634	0
+1621	Vermont	Magic Mountain	2007	56	449	
+1622	Vermont	Suicide Six	2007	55	714	3
+1623	Vermont	Bolton Valley	2007	55	634	1
+1624	Vermont	Mad River Glen	2007	54	899	6
+1625	Vermont	Burke	2007	54		
+1626	Vermont	Pico	2007	49	499	0
+1627	Vermont	Middlebury College Snow Bowl	2007	39	450	1
+1628	Vermont	Cochran's Ski Area	2007	18		
+1629	Vermont	Lyndon Outing Club	2007	15		
+1630	Vermont	Living Memorial Park	2007	5		
+1631	Vermont	Bellows Falls Ski Tow	2007	2		
+1632	Vermont	Stowe	2008	89	1766	9
+1633	Vermont	Killington	2008	82	1443	7
+1634	Vermont	Stratton	2008	79	1109	4
+1635	Vermont	Okemo Mountain	2008	77	1299	6
+1636	Vermont	Bear Creek Mountain Club	2008	75		
+1637	Vermont	Mount Snow	2008	75	1049	4
+1638	Vermont	Sugarbush	2008	72	1399	9
+1639	Vermont	Jay Peak	2008	65		
+1640	Vermont	Bromley	2008	63	1054	6
+1641	Vermont	Smugglers' Notch	2008	62	656	0
+1642	Vermont	Ascutney Mountain	2008	62	839	3
+1643	Vermont	Mad River Glen	2008	60	944	5
+1644	Vermont	Bolton Valley	2008	59	634	0
+1645	Vermont	Burke Mountain	2008	57		
+1646	Vermont	Suicide Six	2008	57	735	2
+1647	Vermont	Magic Mountain	2008	56	439	
+1648	Vermont	Pico	2008	52	519	0
+1649	Vermont	Middlebury College Snow Bowl	2008	42	470	1
+1650	Vermont	Cochran's Ski Area	2008	20		
+1651	Vermont	Northeast Slopes	2008	12		
+1652	Vermont	Bellows Falls Ski Tow	2008	3		
+1653	Vermont	Stowe	2009	89	1815	0
+1654	Vermont	Sugarbush	2009	82	1469	7
+1655	Vermont	Stratton Mountain	2009	82	1139	3
+1656	Vermont	Killington	2009	82	1336	6
+1657	Vermont	Mount Snow	2009	75	1049	4
+1658	Vermont	Jay Peak	2009	67		
+1659	Vermont	Bromley	2009	65		
+1660	Vermont	Ascutney Mountain	2009	62	839	3
+1661	Vermont	Mad River Glen	2009	62	944	5
+1662	Vermont	Smugglers' Notch	2009	62	634	0
+1663	Vermont	Burke Mountain	2009	59	629	0
+1664	Vermont	Suicide Six	2009	59		
+1665	Vermont	Bolton Valley	2009	59	592	0
+1666	Vermont	Magic Mountain	2009	56	429	
+1667	Vermont	Middlebury College Snow Bowl	2009	44		
+1668	Vermont	Northeast Slopes	2009	12		
+1669	Vermont	Okemo Mountain	2009		1339	
+1670	Vermont	Stowe	2010	89	1879	1
+1671	Vermont	Sugarbush	2010	84	1499	7
+1672	Vermont	Killington	2010	84	1389	6
+1673	Vermont	Stratton	2010	84	1159	3
+1674	Vermont	Okemo Mountain	2010	81	1379	7
+1675	Vermont	Mount Snow	2010	79	1199	5
+1676	Vermont	Jay Peak	2010	69		
+1677	Vermont	Burke	2010	66		
+1678	Vermont	Bromley	2010	65	1054	6
+1679	Vermont	Mad River Glen	2010	65	944	4
+1680	Vermont	Smugglers' Notch	2010	64		
+1681	Vermont	Suicide Six	2010	60	629	0
+1682	Vermont	Bolton Valley	2010	59	581	
+1683	Vermont	Pico	2010	59	399	
+1684	Vermont	Middlebury College Snow Bowl	2010	44	490	1
+1685	Vermont	Cochran's Ski Area	2010	20		
+1686	Vermont	Northeast Slopes	2010	12		
+1687	Vermont	Magic Mountain	2010		439	
+1688	Vermont	Stowe	2011	92	1996	1
+1689	Vermont	Sugarbush	2011	88	1569	7
+1690	Vermont	Stratton Mountain	2011	87	1229	4
+1691	Vermont	Killington	2011	86	1443	6
+1692	Vermont	Okemo Mountain	2011	84	1419	6
+1693	Vermont	Mount Snow	2011	83	1249	5
+1694	Vermont	Jay Peak	2011	75		
+1695	Vermont	Burke Mountain	2011	68	699	0
+1696	Vermont	Mad River Glen	2011	66	963	4
+1697	Vermont	Smugglers' Notch	2011	66	656	
+1698	Vermont	Bromley	2011	65	1054	6
+1699	Vermont	Bolton Valley	2011	64	634	
+1700	Vermont	Suicide Six	2011	64		
+1701	Vermont	Pico	2011	62	429	
+1702	Vermont	Magic Mountain	2011	59	449	
+1703	Vermont	Middlebury College Snow Bowl	2011	46	490	0
+1704	Vermont	Quechee	2011	40		
+1705	Vermont	Cochran's Ski Area	2011	20		
+1706	Vermont	Northeast Slopes	2011	15		
+1707	Vermont	Living Memorial Park	2011	5		
+1708	Vermont	Stowe	2012	92	2056	2
+1709	Vermont	Sugarbush	2012	89	1599	8
+1710	Vermont	Okemo	2012	88		
+1711	Vermont	Killington	2012	88	1443	6
+1712	Vermont	Stratton	2012	87	1229	4
+1713	Vermont	Mount Snow	2012	83	1249	5
+1714	Vermont	Jay Peak	2012	69	952	3
+1715	Vermont	Mad River Glen	2012	69	963	4
+1716	Vermont	Burke Mountain	2012	68	799	1
+1717	Vermont	Pico	2012	67	429	
+1718	Vermont	Bromley	2012	67	1111	6
+1719	Vermont	Bolton Valley	2012	66	666	0
+1720	Vermont	Smugglers' Notch	2012	66	656	
+1721	Vermont	Suicide Six	2012	64	675	0
+1722	Vermont	Magic Mountain	2012	59	489	
+1723	Vermont	Middlebury College Snow Bowl	2012	46	490	0
+1724	Vermont	Quechee	2012	40		
+1725	Vermont	Cochran's Ski Area	2012	20		
+1726	Vermont	Northeast Slopes	2012	15		
+1727	Vermont	Lyndon Outing Club	2012	15		
+1728	Vermont	Living Memorial Park	2012	5		
+1729	Vermont	Stowe	2013	98	2138	1
+1730	Vermont	Stratton	2013	92	999	0
+1731	Vermont	Sugarbush	2013	89	1629	8
+1732	Vermont	Okemo Mountain	2013	89	1499	6
+1733	Vermont	Killington	2013	89	1389	5
+1734	Vermont	Mount Snow	2013	85	1279	5
+1735	Vermont	Mad River Glen	2013	71	963	3
+1736	Vermont	Jay Peak	2013	69	952	3
+1737	Vermont	Bolton Valley	2013	69		
+1738	Vermont	Bromley	2013	68	1111	6
+1739	Vermont	Q Burke	2013	68	799	1
+1740	Vermont	Smugglers' Notch	2013	68	687	0
+1741	Vermont	Pico	2013	67	429	
+1742	Vermont	Suicide Six	2013	64	599	
+1743	Vermont	Magic Mountain	2013	63	539	
+1744	Vermont	Middlebury College Snow Bowl	2013	50	490	
+1745	Vermont	Quechee	2013	40		
+1746	Vermont	Cochrans	2013	20		
+1747	Vermont	Northeast Slopes	2013	15		
+1748	Vermont	Lyndon Outing Club	2013	15		
+1749	Vermont	Living Memorial Park	2013	5		
+1750	Vermont	Bellows Falls	2013	3		
+1751	Vermont	Stowe	2014	108	2138	9
+1752	Vermont	Stratton	2014	98		
+1753	Vermont	Killington	2014	92	1443	5
+1754	Vermont	Okemo Mountain	2014	92	1529	6
+1755	Vermont	Sugarbush	2014	91	1679	8
+1756	Vermont	Mount Snow	2014	90	1329	4
+1757	Vermont	Mad River Glen	2014	75	963	2
+1758	Vermont	Jay Peak	2014	72	952	3
+1759	Vermont	Bromley	2014	71	1111	5
+1760	Vermont	Smugglers' Notch	2014	70	687	
+1761	Vermont	Pico	2014	69	449	
+1762	Vermont	Bolton Valley	2014	69	677	
+1763	Vermont	Suicide Six	2014	66	579	
+1764	Vermont	Q Burke	2014	64	899	4
+1765	Vermont	Magic Mountain	2014	63	639	0
+1766	Vermont	Middlebury College Snow Bowl	2014	55	500	
+1767	Vermont	Quechee	2014	42		
+1768	Vermont	Cochrans	2014	20		
+1769	Vermont	Northeast Slopes	2014	15	150	0
+1770	Vermont	Lyndon Outing Club	2014	15		
+1771	Vermont	Living Memorial Park	2014	5		
+1772	Vermont	Stowe	2015	115	2224	9
+1773	Vermont	Stratton	2015	105	1119	0
+1774	Vermont	Okemo Mountain	2015	97	1599	6
+1775	Vermont	Killington	2015	96	1464	5
+1776	Vermont	Sugarbush	2015	95	1729	8
+1777	Vermont	Mount Snow	2015	95	1329	4
+1778	Vermont	Jay Peak	2015	79	974	2
+1779	Vermont	Mad River Glen	2015	79	992	2
+1780	Vermont	Bromley	2015	73	1144	5
+1781	Vermont	Smugglers Notch	2015	72	709	
+1782	Vermont	Pico	2015	72	469	
+1783	Vermont	Bolton Valley	2015	69	687	0
+1784	Vermont	Suicide Six	2015	68	549	
+1785	Vermont	Magic Mountain	2015	67	689	0
+1786	Vermont	Q Burke	2015	64	899	4
+1787	Vermont	Middlebury College Snow Bowl	2015	55	500	
+1788	Vermont	Quechee	2015	42	375	
+1789	Vermont	Northeast Slopes	2015	15	150	0
+1790	Vermont	Living Memorial Park	2015	5	75	5
+1791	Vermont	Ascutney	2015	0		
+1792	Vermont	Stowe	2016	124	2313	8
+1793	Vermont	Killington	2016	105	1486	4
+1794	Vermont	Stratton	2016	105	1199	1
+1795	Vermont	Okemo	2016	101	1619	6
+1796	Vermont	Sugarbush	2016	97	1779	8
+1797	Vermont	Mount Snow	2016	95	999	0
+1798	Vermont	Jay Peak	2016	82	974	1
+1799	Vermont	Mad River Glen	2016	79	992	2
+1800	Vermont	Pico	2016	76	479	
+1801	Vermont	Bromley	2016	74	1144	5
+1802	Vermont	Smugglers Notch	2016	72	709	
+1803	Vermont	Bolton Valley	2016	69	687	0
+1804	Vermont	Suicide Six	2016	68	549	
+1805	Vermont	Magic Mountain	2016	67	679	0
+1806	Vermont	Burke Mountain	2016	64	899	4
+1807	Vermont	Middlebury College Snow Bowl	2016	55	500	
+1808	Vermont	Quechee	2016	45	400	
+1809	Vermont	Northeast Slopes	2016	15	150	0
+1810	Vermont	Lyndon Outing Club	2016	15		
+1811	Vermont	Living Memorial Park	2016	5	75	5
+1812	Vermont	Ascutney	2016	0		
+1813	Vermont	Stowe	2017	131	899	
+1814	Vermont	Sugarbush	2017	124	1149	
+1815	Vermont	Killington	2017	115	1261	1
+1816	Vermont	Stratton	2017	115	1099	
+1817	Vermont	Okemo	2017	110	1375	2
+1818	Vermont	Mount Snow	2017	100	999	0
+1819	Vermont	Mad River Glen	2017	89	992	1
+1820	Vermont	Jay Peak	2017	84	1027	2
+1821	Vermont	Smugglers Notch	2017	81	687	
+1822	Vermont	Bromley	2017	80	1144	4
+1823	Vermont	Pico	2017	79	479	
+1824	Vermont	Bolton Valley	2017	74	687	
+1825	Vermont	Suicide Six	2017	72	579	
+1826	Vermont	Burke	2017	69	929	3
+1827	Vermont	Magic Mountain	2017	69	699	0
+1828	Vermont	Middlebury College Snow Bowl	2017	55	510	
+1829	Vermont	Quechee	2017	45	420	
+1830	Vermont	Northeast Slopes	2017	15	150	0
+1831	Vermont	Lyndon Outing Club	2017	15		
+1832	Vermont	Living Memorial Park	2017	5	75	5
+1833	Vermont	Ascutney	2017	0		
+1834	Vermont	Stowe	2018	147	949	
+1835	Vermont	Killington	2018	129	1292	0
+1836	Vermont	Stratton	2018	129	1049	
+1837	Vermont	Okemo	2018	127	709	
+1838	Vermont	Sugarbush	2018	124	1217	
+1839	Vermont	Mount Snow	2018	110	1129	0
+1840	Vermont	Jay Peak	2018	89	1058	1
+1841	Vermont	Mad River Glen	2018	89	1022	1
+1842	Vermont	Bromley	2018	87	1144	3
+1843	Vermont	Pico	2018	81	512	
+1844	Vermont	Smugglers Notch	2018	79	698	
+1845	Vermont	Bolton Valley	2018	79	740	
+1846	Vermont	Magic Mountain	2018	74	749	0
+1847	Vermont	Burke	2018	73	959	3
+1848	Vermont	Suicide Six	2018	72	634	
+1849	Vermont	Middlebury	2018	60	520	
+1850	Vermont	Quechee	2018	49	445	
+1851	Vermont	Cochrans	2018	25	195	
+1852	Vermont	Lyndon Outing Club	2018	15		
+1853	Vermont	Northeast Slopes	2018	15	150	0
+1854	Vermont	Brattleboro Ski Hill	2018	5	75	5
+1855	Vermont	Stowe	2019	147	989	
+1856	Vermont	Stratton	2019	139	1099	
+1857	Vermont	Sugarbush	2019	134	1270	
+1858	Vermont	Killington	2019	130	1336	0
+1859	Vermont	Okemo	2019	126	739	
+1860	Vermont	Mount Snow	2019	118	739	
+1861	Vermont	Bromley	2019	92	1144	2
+1862	Vermont	Mad River Glen	2019	92	1037	1
+1863	Vermont	Jay Peak	2019	89	1019	1
+1864	Vermont	Pico	2019	85	533	
+1865	Vermont	Smugglers Notch	2019	82	698	
+1866	Vermont	Bolton Valley	2019	80	719	
+1867	Vermont	Suicide Six	2019	79	475	
+1868	Vermont	Burke	2019	75	979	3
+1869	Vermont	Magic	2019	74	779	0
+1870	Vermont	Middlebury	2019	60	520	
+1871	Vermont	Quechee	2019	49	450	
+1872	Vermont	Cochrans	2019	19	195	0
+1873	Vermont	Lyndon Outing Club	2019	15		
+1874	Vermont	Northeast Slopes	2019	15	150	0
+1875	Vermont	Ascutney	2019	15	100	
+1876	Vermont	Brattleboro Ski Hill	2019	5	75	5
+1877	Vermont	Killington	2020	170	1582	
+1878	Vermont	Sugarbush	2020	162	1149	
+1879	Vermont	Stratton	2020	148	1149	
+1880	Vermont	Stowe	2020	147	1099	
+1881	Vermont	Mt. Snow	2020	126	849	
+1882	Vermont	Okemo	2020	126	849	
+1883	Vermont	Pico	2020	120	673	
+1884	Vermont	Bolton Valley	2020	94		
+1885	Vermont	Mad River Glen	2020	92	1037	1
+1886	Vermont	Jay Peak	2020	92	1090	1
+1887	Vermont	Smugglers Notch	2020	89	730	
+1888	Vermont	Bromley	2020	85	1144	3
+1889	Vermont	Suicide Six	2020	79	634	
+1890	Vermont	Magic	2020	78	825	0
+1891	Vermont	Burke	2020	77	999	3
+1892	Vermont	Middlebury	2020	55	550	0
+1893	Vermont	Quechee	2020	49	477	
+1894	Vermont	Cochrans	2020	19	195	0
+1895	Vermont	Ascutney	2020	15	100	
+1896	Vermont	Lyndon Outing Club	2020	15		
+1897	Vermont	Brattleboro Ski Hill	2020	5	75	5
+1898	Vermont	Sugarbush	2021	185	1149	
+1899	Vermont	Killington	2021	184	1567	
+1900	Vermont	Stratton	2021	180	1149	
+1901	Vermont	Stowe	2021	173	819	
+1902	Vermont	Okemo	2021	142	619	
+1903	Vermont	Mount Snow	2021	136	619	
+1904	Vermont	Pico	2021	119	677	
+1905	Vermont	Mad River Glen	2021	97	1058	0
+1906	Vermont	Jay Peak	2021	96	1101	1
+1907	Vermont	Smugglers Notch	2021	94	687	
+1908	Vermont	Bolton Valley	2021	94	952	0
+1909	Vermont	Bromley	2021	89	1160	3
+1910	Vermont	Burke	2021	85	1009	1
+1911	Vermont	Magic	2021	83	846	0
+1912	Vermont	Suicide Six	2021	79	634	
+1913	Vermont	Middlebury	2021	60	529	
+1914	Vermont	Quechee	2021	52	530	0
+1915	Vermont	Ascutney	2021	20	100	
+1916	Vermont	Cochrans	2021	19	195	0
+1917	Vermont	Northeast Slopes	2021	15	150	0
+1918	Vermont	Lyndon Outing Club	2021	15		
+1919	Vermont	Brattleboro Ski Hill	2021	5	75	5
+1920	Vermont	Sugarbush	2022	205	1229	
+1921	Vermont	Stratton	2022	202	1229	
+1922	Vermont	Stowe	2022	200	949	
+1923	Vermont	Killington	2022	200	1705	
+1924	Vermont	Okemo	2022	157	735	
+1925	Vermont	Mount Snow	2022	153	735	
+1926	Vermont	Pico	2022	131	730	
+1927	Vermont	Jay Peak	2022	109	1133	0
+1928	Vermont	Mad River Glen	2022	99	1058	0
+1929	Vermont	Bromley	2022	96	1196	2
+1930	Vermont	Smugglers Notch	2022	95	746	
+1931	Vermont	Magic	2022	94	899	
+1932	Vermont	Bolton Valley	2022	94	952	0
+1933	Vermont	Burke	2022	89	1019	1
+1934	Vermont	Saskadena Six	2022	79	634	
+1935	Vermont	Middlebury	2022	60	549	
+1936	Vermont	Quechee	2022	57	583	0
+1937	Vermont	Ascutney	2022	20	100	
+1938	Vermont	Cochrans	2022	19	195	0
+1939	Vermont	Lyndon Outing Club	2022	15		
+1940	Vermont	Northeast Slopes	2022	15	150	0
+1941	Vermont	Brattleboro Ski Hill	2022	5	75	5
