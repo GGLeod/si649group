@@ -1,6 +1,9 @@
 import streamlit as st
 
 import zyl.visualize as vis_zyl
+import cxw.visualize as vis_cxw
+import hhy.visualize as vis_hhy
+
 
 # st.set_page_config(layout="wide")
 
@@ -54,8 +57,20 @@ def chart_snowfall():
 
     st.markdown('[Data Source: United States Environmental Protection Agency](https://www.epa.gov/)')
 
-visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall]
-viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography"]
+def chart_snowfall_skiresort():
+    st.altair_chart(vis_cxw.plot_snowfall_skiresort())
+    st.altair_chart(vis_cxw.plot_snowfall_scores_counts())
+
+def chart_ticket_price():
+    st.altair_chart(vis_hhy.plot_ticket_price())
+
+# visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_ticket_price]
+# viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography","Ticket Price"]
+
+visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
+viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
+               "Snowfall at Ski Resorts in North America",
+               "Ticket Price"]
 
 def main():
     st.set_page_config(layout="wide")
