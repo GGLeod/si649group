@@ -69,6 +69,7 @@ def chart_ticket_price():
     st.altair_chart(vis_hhy.plot_ticket_price())
 
 def chart_resort_snow_con():
+    st.title("Average Snow Condition for four famous resorts during 2007 - 2022")
     st.image(vis_ydm.snow_condition)
 
 def chart_elevation():
