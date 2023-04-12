@@ -64,13 +64,13 @@ def chart_snowfall_skiresort():
 def chart_ticket_price():
     st.altair_chart(vis_hhy.plot_ticket_price())
 
-# visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_ticket_price]
-# viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography","Ticket Price"]
+visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall, chart_snowfall_skiresort, chart_ticket_price]
+viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography", "Snowfall at Ski Resorts", "Ticket Price"]
 
-visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
-viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
-               "Snowfall at Ski Resorts in North America",
-               "Ticket Price"]
+# visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
+# viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
+#                "Snowfall at Ski Resorts in North America",
+#                "Ticket Price"]
 
 def main():
     st.set_page_config(layout="wide")

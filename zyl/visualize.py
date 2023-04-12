@@ -4,10 +4,10 @@ from vega_datasets import data
 import numpy as np
 import pprint
 
-df=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/seasonal-temperature_state.csv')
-snowfall=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snowfall.csv')
-snow_rain=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snowfall_preciption.csv')
-temperature=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/seasonal-temperature_US.csv')
+df=pd.read_csv('zyl/seasonal-temperature_state.csv')
+snowfall=pd.read_csv('zyl/snowfall.csv')
+snow_rain=pd.read_csv('zyl/snowfall_preciption.csv')
+temperature=pd.read_csv('zyl/seasonal-temperature_US.csv')
 state_map = data.us_10m.url
 
 snowfall['Trend']=snowfall['Trend'].round(2)
@@ -345,11 +345,11 @@ def get_season(us_temp):
     return final_chart
 
 def plot_seasonal_temperature():
-    df=pd.read_csv("https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/US_temperature.csv")
+    df=pd.read_csv("zyl/US_temperature.csv")
     # return get_season(df)
     return get_season(df).interactive()
 
-duration=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snow_duration.csv')
+duration=pd.read_csv('zyl/snow_duration.csv')
 
 base2=alt.Chart(duration).mark_line().encode(
     x='Year:Q',
@@ -369,7 +369,7 @@ def plot_snow_duration():
         title='Snow Season Length from 1972-2013 in US'
     )
 
-coverage=pd.read_csv('https://raw.githubusercontent.com/GGLeod/si649group/main/zyl/snow_cover.csv')
+coverage=pd.read_csv('zyl/snow_cover.csv')
 
 coverage['coverage']=coverage['coverage']/1000000.0
 

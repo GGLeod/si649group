@@ -9,7 +9,12 @@ us = alt.Chart(states).mark_geoshape(
     fill = '#f6f4e9',
     stroke='black',
     strokeWidth=0.5
-)
+).properties(
+    width=1000,
+    height=800
+).project(
+    "albersUsa"
+    ) 
 points = alt.Chart(df).mark_circle(opacity=0.9, stroke = 'white').encode(
     latitude='latitude:Q',
     longitude='longitude:Q',
@@ -29,11 +34,8 @@ points = alt.Chart(df).mark_circle(opacity=0.9, stroke = 'white').encode(
 # gdf_sel['geometry'] = gdf_sel['geometry'].apply(lambda x: x.__geo_interface__)
 
 chart = alt.layer(
-    us, points).properties(
-    width=800,
-    height=500).project(
-    scale = 430,
-    translate=[1260, 650]) 
+    us, points)
+
 title = alt.TitleParams(
     'Snowfall at Ski Resorts in North America',
     subtitle='Data source: ZRankings',
@@ -52,7 +54,9 @@ snowfall_at_ski_resort_in_north_america = chart.configure_title(
 ).configure_view(
     strokeWidth=0
 ).properties(
-    title=title
+    title=title,
+    width=800,
+    height=500
 )
 
 def plot_snowfall_skiresort():
