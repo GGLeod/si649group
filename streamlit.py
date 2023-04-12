@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 import zyl.visualize as vis_zyl
 import cxw.visualize as vis_cxw
@@ -82,7 +83,8 @@ def chart_ticket_price():
 
 
 def snow_vs_price():
-    st.title("Ticket Price is Higher at Resort with Low Snow Amount on Median Heights Mountain")
+    st.title("Ticket Price is Higher at Resorts with Low Snow Amount")
+    st.write("For the following visualizations, we eliminated the effect of price levels in different states by diving the price by the state's cost of living index.")
     low = "Low 0~450m"
     median = "Median 450~900m"
     high = "High > 900m"
@@ -97,10 +99,36 @@ def snow_vs_price():
     elif selected_tab == high:
         st.image("YDM/HIGHER.png")
     
-    st.write(""" Ticket Price of Resort is related to  """)
+    st.write(""" Ticket price of a ski resort is related to many factors besides snow condition. One of the most important factors 
+    is height. A ski resort on a higher mountain typically has higher operation cost and favored by skiers. By choosing the 
+    height of mountains above, we can find the ticket price of ski resorts is highly related to the mountain height.""")
+
+    st.write(""" To see this point more clearly. Below is the visualization of the snowcondition of four resorts. A bluebird day is a day
+      with clear skies, bright sunshine, and no clouds, resulting in excellent visibility and beautiful views on the mountain. A powder day is 
+      a day when a significant amount of fresh snow has fallen, creating a layer of light, fluffy, and deep snow known as "powder."
+    We can see that height dominates the ticket price overall. Alpental and KeyStone are much more expensive than other two regardless of the snow condition. """)
+
+    data = {
+        "Resort Name": ['Alpental', 'Arizona', 'KeyStone', 'Mt Holly'],
+        "Height(m)": [957, 576, 953, 106],
+        "Price($)": [128, 49, 179, 55]
+    }
+
+    df = pd.DataFrame(data)
+
+    st.write(df)
 
     st.image("YDM/snow_4_resorts.png")
     
+    st.write("""Therefore, to analyze the effect of snow condition on ticket price, we divide them into multiple groups based on 
+    their height. We find the trend is most obvious on median height mountain, which may also caused by the higher cost to maintain 
+    snow.""")
+
+    st.image("YDM/scatter_median.png")
+
+    st.markdown('[Data Source: Economic Research and Information Center](https://meric.mo.gov/data/cost-living-data-series)')
+    st.markdown('[Data Source: On the Snow](https://www.onthesnow.com/)')
+
 
     
 
