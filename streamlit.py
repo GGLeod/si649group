@@ -58,7 +58,7 @@ def chart_snowfall():
     st.markdown('[Data Source: United States Environmental Protection Agency](https://www.epa.gov/)')
 
 def chart_snowfall_skiresort():
-    st.title('Snowfall Conditions of Ski Resorts across _italics_ :North America')
+    st.title('Snowfall Conditions of Ski Resorts across North America')
     st.altair_chart(vis_cxw.plot_snowfall_skiresort())
     
     st.altair_chart(vis_cxw.plot_snowfall_scores_counts())
