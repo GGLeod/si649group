@@ -59,36 +59,20 @@ def chart_snowfall():
 
 def chart_snowfall_skiresort():
     st.altair_chart(vis_cxw.plot_snowfall_skiresort())
+    st.title("Snowfall Conditions of Ski Resorts across North America ")
     st.altair_chart(vis_cxw.plot_snowfall_scores_counts())
+    st.markdown('[Data Source: zRankings](https://www.zrankings.com/ski-resorts/snow?_=1615734995765)')
 
 def chart_ticket_price():
     st.altair_chart(vis_hhy.plot_ticket_price())
 
-def chart_elevation():
-    st.title("Snowfall and Ticket Price across Elevation")
-    tab1, tab2, tab3, tab4 = st.tabs(['All Elevation','Higher Elevation','Median Elevation','Lower Elevation'])
-    with tab1:
-        st.image(vis_ydm.all_heights)
-    with tab2:
-        st.image(vis_ydm.higher_heights)
-    with tab3:
-        st.image(vis_ydm.middle_heights)
-    with tab4:
-        st.image(vis_ydm.lower_heights)
+visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall, chart_snowfall_skiresort, chart_ticket_price]
+viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography", "Snowfall at Ski Resorts", "Ticket Price"]
 
-def chart_snow_condition():
-    st.title('Snow condition in four resorts across the country')
-    st.image(vis_ydm.snow_condition)
-
-# visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_ticket_price]
-# viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography","Ticket Price"]
-
-visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,
-                  chart_snowfall_skiresort,chart_ticket_price, chart_elevation, chart_snow_condition]
-viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
-               "Snowfall at Ski Resorts in North America",
-               "Ticket Price",
-               "Elevation", 'Snow Condition']
+# visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
+# viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
+#                "Snowfall at Ski Resorts in North America",
+#                "Ticket Price"]
 
 def main():
     st.set_page_config(layout="wide")
