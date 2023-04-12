@@ -3,7 +3,7 @@ import streamlit as st
 import zyl.visualize as vis_zyl
 import cxw.visualize as vis_cxw
 import hhy.visualize as vis_hhy
-import ydm.visualize as vis_ydm
+# import ydm.visualize as vis_ydm
 
 # st.set_page_config(layout="wide")
 
@@ -42,11 +42,11 @@ def chart_snow_duration():
     
 
 def chart_snowfall():
-    st.title("Snowfall Temprorily Maintains Thanks to High Precipitation")
+    st.title("Snowfall Drops Most in North-West but Overall Temprorily Maintains Thanks to High Precipitation")
     st.altair_chart(vis_zyl.plot_snowfall())
     st.write("""This visualization shows that the state with higher latitude is darker which means those states experience more
               temperature increased in those areas in winter. However, most ski resorts are in high latitude states for more snowfall
-              so this a bad news. In terms of snowfall, red dots dominates west which means states in the west experience obvious snowfall dropping while in other areas, 
+              so this a bad news. In terms of snowfall, red dots dominates north-west which means states in the north-west experience obvious snowfall dropping while in other areas, 
               snow fall decreasing is not so obvious and in some place, snowfall even increases. However, this is actually misleading. 
               The snowfall increases because as temperature becomes higher, there is more evporation and leads to more precipitation. 
               Therefore, snowfall-to-precipitation ratio is a better metric.
@@ -60,21 +60,58 @@ def chart_snowfall():
 def chart_snowfall_skiresort():
     st.title('Snowfall Conditions of Ski Resorts across North America')
     st.altair_chart(vis_cxw.plot_snowfall_skiresort())
-    
+    st.write(""" This visualization shows the snow amount and snowfall score of different ski resort across North America (tooltip shows the exact number). Skiing is not 
+    only about snow quantity, quality also matters. Snowfall score is a rating accounting for snowfall quantity, quality and consistency. 
+    It’s a good indicator of the attractiveness of a resort for powder skiing.""")
+    st.write("""We can tell the ski resort with high snowfall score is mostly in the north-west of US. However, from previous visualizations, 
+    we know snowfall drops most in the north-west, this is an alert to ski industry. You can interact with following graph to see the number of resorts within a snowfall score range.
+    Resorts with high snowfall score are too precious to be ruined.""")
     st.altair_chart(vis_cxw.plot_snowfall_scores_counts())
     st.markdown('[Data Source: zRankings](https://www.zrankings.com/ski-resorts/snow?_=1615734995765)')
 
 def chart_ticket_price():
-    st.title("Ticket Price is increasing faster than CPI")
+    st.title("Ticket Price is Increasing Faster than CPI")
     st.altair_chart(vis_hhy.plot_ticket_price(), use_container_width=True)
     st.write("""This visualization shows the ticket price of ski resort in New England. You can drag the slider to see the increasing of the ticket price.
     Of course, the ticket price increasing is not all about climate. Therefore, we compare it with CPI (the price of a weighted average market basket of 
     consumer goods and services purchased by households). By clicking a state, you can see the ticket price vs 
     CPI of that state. We can see it is obvious that the ticket price increases much faster than CPI. One reason is that the increasing cost to maintain snow 
     condition such as snow making. """)
+    st.markdown('[Data Source: New England Ski History](https://www.newenglandskihistory.com/timeline/)')
+    st.markdown('[Data Source: U.S. BUREAU OF LABOR STATISTICS](https://www.bls.gov/regions/new-england/data/consumerpriceindex_northeast_table.htm)')
 
-visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall, chart_snowfall_skiresort, chart_ticket_price]
-viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography", "Snowfall at Ski Resorts", "Ticket Price"]
+
+def snow_vs_price():
+    low = "Low 0~450m"
+    median = "Median 450~900m"
+    high = "High > 900m"
+    tabs = ['All', low, median, high]
+    selected_tab = st.selectbox("Mountain Height", tabs)
+    if selected_tab == 'All':
+        st.image("YDM/ALL.png")
+    elif selected_tab == low:
+        st.image("YDM/LOWER.PNG")
+    elif selected_tab == median:
+        st.image("YDM/MEDIAN.PNG")
+    elif selected_tab == high:
+        st.image("YDM/HIGHER.PNG")
+
+    # tab1, tab2, tab3, tab4 = st.tabs(['All','Low','Median','High'])
+    # with tab1:
+    #     st.image("YDM/ALL.png")
+    # with tab2:
+    #     st.image("YDM/LOWER.PNG")
+    # with tab3:
+    #     st.image("YDM/MEDIAN.PNG")
+    # with tab4:
+    #     st.image("YDM/HIGH.PNG")
+    
+
+
+visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration,
+                   chart_snowfall, chart_snowfall_skiresort, chart_ticket_price, snow_vs_price]
+viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", 
+               "Climate Change by Geography", "Snowfall at Ski Resorts", "Ticket Price vs CPI", "Ticket Price vs Snowfall Condition"]
 
 # visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
 # viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
