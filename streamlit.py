@@ -65,6 +65,7 @@ def chart_snowfall_skiresort():
     st.markdown('[Data Source: zRankings](https://www.zrankings.com/ski-resorts/snow?_=1615734995765)')
 
 def chart_ticket_price():
+    st.title('Temporal Price compared with CPI and Temperature')
     st.altair_chart(vis_hhy.plot_ticket_price())
 
 def chart_resort_snow_con():
