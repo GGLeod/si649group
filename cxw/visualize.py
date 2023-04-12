@@ -17,6 +17,7 @@ points = alt.Chart(df).mark_circle(opacity=0.9, stroke = 'white').encode(
     color=alt.Color('Snowfall Score:Q', scale=alt.Scale(domain=[30, 50, 70, 90], scheme='blueorange'), legend=alt.Legend(title='Snowfall Score')),
     tooltip = [
         alt.Tooltip('Resort Name', title='Resort Name'),
+        alt.Tooltip('State_full', title='Location'),
         alt.Tooltip('True Snow Per Year (inches):Q', title='Snow Per Year (inches)'),
         alt.Tooltip('MonthsMoreThan90Snow', title='Extended Stay'),
         alt.Tooltip('MonthsLessThan30Snow:Q', title='Drought Threat')
