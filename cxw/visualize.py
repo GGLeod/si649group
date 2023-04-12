@@ -45,8 +45,7 @@ title = alt.TitleParams(
 )
 snowfall_at_ski_resort_in_north_america = chart.configure_title(
     fontSize=24,
-    anchor='middle',
-    color='#333'
+    anchor='middle'
 ).configure_legend(
     labelFontSize=12,
     titleFontSize=12,
@@ -63,7 +62,7 @@ def plot_snowfall_skiresort():
     return snowfall_at_ski_resort_in_north_america
 
 
-brush = alt.selection_interval(encodings=['x'])
+brush = alt.selection_interval(encodings=['x'],  mark=alt.BrushConfig(strokeWidth=3, stroke= '#e39e19'))
 histogram = alt.Chart(df).mark_bar().encode(
     x=alt.X('Snowfall Score:Q', bin=alt.Bin(step=10), axis=alt.Axis(title='Snowfall Score')),
     y=alt.Y('count()', axis=alt.Axis(title='Number of Resorts')),
@@ -74,15 +73,19 @@ histogram = alt.Chart(df).mark_bar().encode(
 ).add_selection(
     brush
 )
+
 resort_count = alt.Chart(df).transform_filter(
     brush
 ).mark_text(
-    fontSize=48,
+    fontSize=30,
     fontWeight=600,
     color='#e39e19'
 ).encode(
     text='count()'
+).properties(
+    title='The Number of Ski Resorts in the Range of Selected Snowfall Scores:'
 )
+
 snowfall_scores_counts = (histogram & resort_count)
 def plot_snowfall_scores_counts():
     return snowfall_scores_counts
