@@ -21,14 +21,14 @@ points = alt.Chart(df).mark_circle(opacity=0.9, stroke = 'white').encode(
         alt.Tooltip('MonthsMoreThan90Snow', title='Extended Stay'),
         alt.Tooltip('MonthsLessThan30Snow:Q', title='Drought Threat')
         ])
-import geopandas as gpd
-fp = gpd.datasets.get_path('naturalearth_lowres')
-gdf_ne = gpd.read_file(fp)
-gdf_sel = gdf_ne[gdf_ne.continent == 'North America']
-gdf_sel['geometry'] = gdf_sel['geometry'].apply(lambda x: x.__geo_interface__)
+# import geopandas as gpd
+# fp = gpd.datasets.get_path('naturalearth_lowres')
+# gdf_ne = gpd.read_file(fp)
+# gdf_sel = gdf_ne[gdf_ne.continent == 'North America']
+# gdf_sel['geometry'] = gdf_sel['geometry'].apply(lambda x: x.__geo_interface__)
 
 chart = alt.layer(
-    namap,us, points).properties(
+    us, points).properties(
     width=800,
     height=500).project(
     scale = 430,
