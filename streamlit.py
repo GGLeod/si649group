@@ -147,7 +147,7 @@ def snow_vs_price():
 visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration,
                    chart_snowfall, chart_snowfall_skiresort, chart_ticket_price, snow_vs_price]
 viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", 
-               "Climate Change by Geography", "Snowfall at Ski Resorts", "Ticket Price vs CPI", "Ticket Price vs Snowfall Condition"]
+               "Climate Change by Geography", "Snowfall by Geography", "Ticket Price vs CPI", "Ticket Price vs Snowfall Condition"]
 
 # visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
 # viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
