@@ -82,6 +82,7 @@ def chart_ticket_price():
 
 
 def snow_vs_price():
+    st.title("Ticket Price is Higher at Resort with Low Snow Amount on Median Heights Mountain")
     low = "Low 0~450m"
     median = "Median 450~900m"
     high = "High > 900m"
@@ -90,11 +91,18 @@ def snow_vs_price():
     if selected_tab == 'All':
         st.image("YDM/ALL.png")
     elif selected_tab == low:
-        st.image("YDM/LOWER.PNG")
+        st.image("YDM/LOWER.png")
     elif selected_tab == median:
-        st.image("YDM/MEDIAN.PNG")
+        st.image("YDM/MEDIAN.png")
     elif selected_tab == high:
-        st.image("YDM/HIGHER.PNG")
+        st.image("YDM/HIGHER.png")
+    
+    st.write(""" Ticket Price of Resort is related to  """)
+
+    st.image("YDM/snow_4_resorts.png")
+    
+
+    
 
     # tab1, tab2, tab3, tab4 = st.tabs(['All','Low','Median','High'])
     # with tab1:
