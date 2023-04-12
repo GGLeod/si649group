@@ -70,8 +70,20 @@ def chart_ticket_price():
 def chart_resort_snow_con():
     st.image(vis_ydm.snow_condition)
 
-visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall, chart_snowfall_skiresort, chart_ticket_price, chart_resort_snow_con]
-viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography", "Snowfall at Ski Resorts", "Ticket Price","Four famous Resorts"]
+def chart_elevation():
+    st.title('Snowfall and Ticket Price based on Elevation')
+    tab1,tab2,tab3,tab4 = st.tabs(['All', "Higher", "Median", "Lower"])
+    with tab1:
+        st.image(vis_ydm.all_heights)
+    with tab2:
+        st.image(vis_ydm.higher_heights)
+    with tab3:
+        st.image(vis_ydm.median_heights)
+    with tab4:
+        st.image(vis_ydm.lower_heights)
+
+visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall, chart_snowfall_skiresort, chart_ticket_price, chart_resort_snow_con, chart_elevation]
+viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography", "Snowfall at Ski Resorts", "Ticket Price","Four famous Resorts","Elevation"]
 
 # visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
 # viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
