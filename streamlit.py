@@ -65,7 +65,13 @@ def chart_snowfall_skiresort():
     st.markdown('[Data Source: zRankings](https://www.zrankings.com/ski-resorts/snow?_=1615734995765)')
 
 def chart_ticket_price():
-    st.altair_chart(vis_hhy.plot_ticket_price())
+    st.title("Ticket Price is increasing faster than CPI")
+    st.altair_chart(vis_hhy.plot_ticket_price(), use_container_width=True)
+    st.write("""This visualization shows the ticket price of ski resort in New England. You can drag the slider to see the increasing of the ticket price.
+    Of course, the ticket price increasing is not all about climate. Therefore, we compare it with CPI (the price of a weighted average market basket of 
+    consumer goods and services purchased by households). By clicking a state, you can see the ticket price vs 
+    CPI of that state. We can see it is obvious that the ticket price increases much faster than CPI. One reason is that the increasing cost to maintain snow 
+    condition such as snow making. """)
 
 visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall, chart_snowfall_skiresort, chart_ticket_price]
 viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography", "Snowfall at Ski Resorts", "Ticket Price"]

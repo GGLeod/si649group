@@ -47,8 +47,8 @@ background = alt.Chart(price_state_mean_df).transform_lookup(
 ).project(
     type='albersUsa'
 ).properties(
-    width = 600,
-    height= 500
+    width = 400,
+    height= 300
 )
 price_selection = alt.Chart(price_state_df).transform_lookup(
     lookup='id',
@@ -73,8 +73,8 @@ price_cpi_chart = (price_selection + cpi_chart ).resolve_scale(
     y='independent'
 ).properties(
     title=alt.TitleParams(text='Tickect Price vs. CPI', fontSize=12),
-    width = 300,
-    height = 200
+    width = 400,
+    height = 300
 )
 price_temp_chart = (price_selection + temp_selection).resolve_scale(
     y='independent',
@@ -83,8 +83,8 @@ price_temp_chart = (price_selection + temp_selection).resolve_scale(
     width = 300,
     height= 200
 )
-price_change_chart = (background | (price_cpi_chart & price_temp_chart)).configure_title(fontSize=30).properties(
-        title = 'Ticket Price From 1994-2022'
+price_change_chart = (background | (price_cpi_chart)).configure_title(fontSize=30).properties(
+        title = 'Ticket Price of Ski Resort in New England from 1994 to 2022'
     )
 
 def plot_ticket_price():
