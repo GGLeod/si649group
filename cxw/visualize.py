@@ -25,9 +25,7 @@ import geopandas as gpd
 fp = gpd.datasets.get_path('naturalearth_lowres')
 gdf_ne = gpd.read_file(fp)
 gdf_sel = gdf_ne[gdf_ne.continent == 'North America']
-namap = alt.Chart(gdf_sel).mark_geoshape(fill='lightgray',
-    stroke='white',
-    strokeWidth=0.5)
+gdf_sel['geometry'] = gdf_sel['geometry'].apply(lambda x: x.__geo_interface__)
 
 chart = alt.layer(
     namap,us, points).properties(
