@@ -24,7 +24,7 @@ def chart_snow_cover():
     st.title("Snow Cover is Slowly Decreasing")
     st.altair_chart(vis_zyl.plot_snow_cover())
     st.write("""We can see the year average snow cover drops a little bit. Snow cover varies a lot in different months in a year. 
-        Snow cover varies a lot in different month over a year. We find that snow cover drops quickly across years in summer (June, July and August).
+         We find that snow cover drops quickly across years in summer (June, July and August).
         In winter (Deecember, January, February), snow cover does not vary a lot across years. Explore the data by choosing the month you are interested.
     """)
     st.markdown('[Data Source: Rutgers university global snow lab](http://climate.rutgers.edu/snowcover/)')
