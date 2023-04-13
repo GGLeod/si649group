@@ -15,11 +15,11 @@ us = alt.Chart(states).mark_geoshape(
 ).project(
     "albersUsa"
     ) 
-points = alt.Chart(df).mark_circle(opacity=0.9, stroke = 'white').encode(
+points = alt.Chart(df).mark_circle(opacity=0.7, stroke = 'white').encode(
     latitude='latitude:Q',
     longitude='longitude:Q',
     size=alt.Size('True Snow Per Year (inches):Q', scale=alt.Scale(range=[0,660]), legend = alt.Legend(title = 'True Snow Per Year (inches)')),
-    color=alt.Color('Snowfall Score:Q', scale=alt.Scale(domain=[30, 50, 70, 90], scheme='blueorange'), legend=alt.Legend(title='Snowfall Score')),
+    color=alt.Color('Snowfall Score:Q', scale=alt.Scale(domain=[30, 50, 70, 90], scheme='oranges'), legend=alt.Legend(title='Snowfall Score')),
     tooltip = [
         alt.Tooltip('Resort Name', title='Resort Name'),
         alt.Tooltip('State_full', title='Location'),
