@@ -39,7 +39,8 @@ background = alt.Chart(price_state_mean_df).transform_lookup(
 ).mark_geoshape(
     stroke='black', strokeWidth=1,
 ).encode(
-    color=alt.Color('price', scale=scale)
+    color=alt.Color('price', scale=scale),
+    tooltip=[alt.Tooltip('state'), alt.Tooltip('price', format='.2f')]
 ).add_selection(
     slider_selection,selection_state
 ).transform_filter(

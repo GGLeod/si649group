@@ -35,7 +35,8 @@ def chart_snow_duration():
     st.altair_chart(vis_zyl.plot_snow_duration())
     st.write(
         """
-            Snow season length is the number of days between the first snow and last snow in a year. The regression line clearly shows that the 
+            Snow season length is the average number of days between the first snow and the last snow. These snow cover season dates have 
+            been averaged over all parts of the country that regularly receive snow.  The regression line clearly shows that the 
             season length drops quickly. Starting from 1972, it has decreased approximately two weeks, which will affect ski industry a lot.
         """
     )
@@ -143,7 +144,7 @@ For snow making, the median height resort may have good snow making equipment, s
 visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration,
                    chart_snowfall, chart_snowfall_skiresort, chart_ticket_price, snow_vs_price]
 viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", 
-               "Climate Change by Geography", "Snowfall by Geography", "Ticket Price vs CPI", "Ticket Price vs Snowfall Condition"]
+               "Climate Change by Geography", "Snowfall and Ski Resorts", "Ticket Price vs CPI", "Ticket Price vs Snowfall Condition"]
 
 # visualizations = [chart_seasonal_temperature, chart_snow_cover, chart_snow_duration, chart_snowfall,chart_snowfall_skiresort,chart_ticket_price]
 # viz_options = ["Seasonal Temperature", "Snow Cover", "Snow Season Length", "Snowfall by Geography",
