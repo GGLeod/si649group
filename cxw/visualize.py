@@ -2,7 +2,7 @@ import pandas as pd
 import altair as alt
 from vega_datasets import data
 
-filter_list = ["Albert","Newfoundland and Labrador", "British Columbia"]
+filter_list = ["Alberta","Newfoundland and Labrador", "British Columbia"]
 df = pd.read_csv("cxw/zRankings.csv")[~pd.read_csv("cxw/zRankings.csv")["State_full"].isin(filter_list)]
 state_map = data.us_10m.url
 states = alt.topo_feature(state_map, feature='states')
